@@ -1,1 +1,1 @@
-# place for reveal.js content (or at least that's the plan :pray:)
+## place for reveal.js content (or at least that's the plan)
