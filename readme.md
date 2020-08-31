@@ -1,9 +1,6 @@
-### place for reveal.js content (or at least that's the plan :pray:)
+# Lectures by Shane Crowley :tent:
 
 <html>
-  
-<title>Lectures by Shane Crowley</title>
-  </head>
 
   <body>
     <header>
