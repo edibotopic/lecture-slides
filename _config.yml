@@ -1,4 +1,7 @@
 theme: jekyll-theme-minimal
 
+title: [Lectures by Shane Crowley]
+description: [On food science, technology and philosophy]
+
 plugins:
   - jemoji
