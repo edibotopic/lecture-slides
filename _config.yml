@@ -1,7 +1,11 @@
 theme: jekyll-theme-minimal
 
-title: [Lectures by Shane Crowley]
-description: [On food science, technology and philosophy]
+title: [Lectures]
+description: [on topics related to the technology and philosophy 
+of food.
+
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+]
 
 plugins:
   - jemoji
