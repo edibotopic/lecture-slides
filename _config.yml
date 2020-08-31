@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
+baseurl: /lecture-slides
 
 title: [Lectures]
 description: [On food technology and philosophy]
