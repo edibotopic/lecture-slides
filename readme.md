@@ -2,23 +2,8 @@
 
 <html>
 
-  <body>
-    <header>
-      <div class="inner">
-        <h1>Slides</h1>
-        <h2>A collection of lectures hosted on Github pages</h2>
-        <a href="https://github.com/edibotopic/slides" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
-
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-
 <h2>
 <a name="current-presentations" class="anchor" href="#current-presentations"><span class="octicon octicon-link"></span></a>Food Technology, Culture &amp; Ethics</h2>
-
-          
           
 <ul>
   
