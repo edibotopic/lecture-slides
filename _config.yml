@@ -1,11 +1,7 @@
 theme: jekyll-theme-minimal
 
 title: [Lectures]
-description: [on topics related to the technology and philosophy 
-of food.
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-]
+description: [On food technology and philosophy]
 
 plugins:
   - jemoji
