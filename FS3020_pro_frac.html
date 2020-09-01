@@ -152,22 +152,11 @@
 					
 				<section>
 					<h3>Protein Profile</h3>
-					<canvas class="stretch" id="pie"></canvas>
-				<script>
-				var ctx = document.getElementById('pie').getContext('2d');
-				var chart = new Chart(ctx, {
-					type: 'pie',
-					
-					data: {
-						labels: ["casein", "whey protein"],
-						datasets: [{
-							label: "My First Dataset",
-							data: [80, 20],
-						}]
-					}
-// 					options:{}
-				});
-					</script>
+					<canvas data-chart="bar">
+					Month, January, February, March, April, May, June, July
+					My first dataset, 65, 59, 80, 81, 56, 55, 40
+					My second dataset, 28, 48, 40, 19, 86, 27, 90
+					</canvas>
 				</section>
 
 				<section data-background-video="vids/ACN_pfd.mp4" data-background-color="#000000" data-background-transition="fade" data-transition-speed="slow">
