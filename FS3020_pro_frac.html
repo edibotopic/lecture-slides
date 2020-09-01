@@ -1,245 +1,240 @@
 <!doctype html>
 <html lang="en">
-	
-	<head>
-		<meta charset="utf-8">
-		
-		<title>Protein Fractionation Lab</title>
-		<meta name="description" content="Lecture using reveal.js">
-		<meta name="author" content="Shane Crowley">
-		
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+<head>
+	<meta charset="utf-8">
+
+	<title>Protein Fractionation Lab</title>
+
+	<meta name="description" content="Protein Fractionation">
+	<meta name="author" content="Shane Crowley">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+	<link rel="stylesheet" href="./dist/reveal.css">
+	<link rel="stylesheet" href="./dist/theme/black.css" id="theme">
+	<link rel="stylesheet" href="./plugin/highlight/monokai.css">
+	<link rel="stylesheet" href="./css/print/pdf.scss" type="text/css" media="print"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<script src="./dist/reveal.js"></script>
+    <script src="./plugin/markdown/markdown.js"></script>
+	<script src="./plugin/highlight/highlight.js"></script>
+	<script src="./plugin/chart/Chart.min.js"></script>
+	<script src="./plugin/chart/plugin.js"></script>
+	<script src="./plugin/math-katex/math-katex.js"></script>
+	<script src="./plugin/chalkboard/plugin.js"></script>
+	<script src="./plugin/zoom/zoom.js"></script>
+
+</head>
+
+<body>
+
+	<div class="reveal">
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section>
+				<h1 style="color: darkorange">Protein Fractionation</h1>
+				<h2><i>Dr Shane V Crowley</i></h3>
+				<p><b>🏹Move forward</b>: press the <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">right-arrow</mark> on keyboard or 
+					<b><i>swipe</i> left</b> on screen</p>
+
+			</section>
+			<section>
+				<h3 style="color: darkorange;">Interacting with the Slides</h3>
+				<p><b>📺Full screen</b>: press the <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">F</mark> key</p>
+				<p><b>🎮View video controls</b>: hover cursor over video</p>
+				<p><b>🔎Zoom in</b>: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">alt+leftmousebutton</mark></p>
+				<p><b>👨‍🎨👩‍🎨Draw</b>: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">C</mark> to toggle pen for drawing</p>
+				<p><b>🌈Pen colour</b>: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">X</mark> to cycle and 
+					<mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">Y</mark> to revert</p>
+
+			</section>
+			<section>
+				<p>You can view/print these slides (without video) here:</p>
 		
-		<link rel="stylesheet" href="./dist/reveal.css">
-		<link rel="stylesheet" href="./dist/theme/black.css" id="theme">
-		<link rel="stylesheet" href="./plugin/highlight/monokai.css">
-		<link rel="stylesheet" href="./css/print/pdf.scss" type="text/css" media="print"/>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	</head>
-	
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-					<h1 style="color: darkorange">Protein Fractionation</h1>
-					<h2><i>Dr Shane V Crowley</i></h3>
-					<p><b>🏹Move forward</b>: press the <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">right-arrow</mark> on keyboard or 
-						<b><i>swipe</i> left</b> on screen</p>
-
-				</section>
-				<section>
-					<h3 style="color: darkorange;">Interacting with the Slides</h3>
-					<p><b>📺Full screen</b>: press the <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">F</mark> key</p>
-					<p><b>🎮View video controls</b>: hover cursor over video</p>
-					<p><b>🔎Zoom in</b>: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">alt+leftmousebutton</mark></p>
-					<p><b>👨‍🎨👩‍🎨Draw</b>: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">C</mark> to toggle pen for drawing</p>
-					<p><b>🌈Pen colour</b>: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">X</mark> to cycle and 
-						<mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">Y</mark> to revert</p>
-
-				</section>
-				<section>
-					<p>You can view/print these slides (without video) here:</p>
-			
-						<p style="color:orchid">👉<i>https://edibotopic.github.io/lecture-slides</i></p>
-			
-					<p><i>or</i> you can scan the image below with your phone ☎️</p>
-			
-					<img src="img/qr_edibo.png" alt="qr_code" style="height: 420px; margin: 0 auto 4rem auto; background: transparent;" class="qr_code">
-				</section>
-				
-				<section data-auto-animate="">
-					<h3 style="color: darkorange;">Introduction</h3>
-					<blockquote>
-					<p>Fractionation: dividing some whole into a sub-set of its component parts</p>
-				</blockquote>
-				</section>
-				
-				<section data-auto-animate="">
-					<h3 style="color: darkorange;">Introduction</h3>
-				<blockquote>
-					<p>Fractionation: dividing some whole into a sub-set of its component parts</p>
-					<blockquote>
-						<p>Why: a part may have desirable properties distinct from the whole</p>
-					</blockquote>
-				</blockquote>
+					<p style="color:orchid">👉<i>https://edibotopic.github.io/lecture-slides</i></p>
+		
+				<p><i>or</i> you can scan the image below with your phone ☎️</p>
+		
+				<img src="img/qr_edibo.png" alt="qr_code" style="height: 420px; margin: 0 auto 4rem auto; background: transparent;" class="qr_code">
 			</section>
 			
+			<section data-auto-animate="">
+				<h3 style="color: darkorange;">Introduction</h3>
+				<blockquote>
+				<p>Fractionation: dividing some whole into a sub-set of its component parts</p>
+			</blockquote>
+			</section>
+			
+			<section data-auto-animate="">
+				<h3 style="color: darkorange;">Introduction</h3>
+			<blockquote>
+				<p>Fractionation: dividing some whole into a sub-set of its component parts</p>
+				<blockquote>
+					<p>Why: a part may have desirable properties distinct from the whole</p>
+				</blockquote>
+			</blockquote>
+		</section>
+		
+		
+		<section data-auto-animate>
+			<h3>Contents</h3>
+				<ol>
+					<li style="color:rgb(223, 193, 27)">Overview of casein and whey protein chemistry</li>   
+				</ol>
+			</section>
 			
 			<section data-auto-animate>
 				<h3>Contents</h3>
-					<ol>
-						<li style="color:rgb(223, 193, 27)">Overview of casein and whey protein chemistry</li>   
-					</ol>
-				</section>
-				
-				<section data-auto-animate>
-					<h3>Contents</h3>
-					<ol>
-						<li style="opacity: 0.5;">Overview of casein and whey protein chemistry</li>
-						<li style="color:rgb(223, 193, 27)">Making acid casein and sodium caseinate</li>
-					</ol>
-				</section>
-				
-				<section data-auto-animate>
-					<h3>Contents</h3>
-					<ol>
-						<li style="opacity: 0.5;">Overview of casein and whey protein chemistry</li>
-						<li style="opacity: 0.5;">Making acid casein and sodium caseinate</li>
-						<li style="color:rgb(223, 193, 27)">Demo of cross-flow filtration unit at UCC</li>
-					</ol>
-				</section>
-				
-				<section data-auto-animate>
-					<h3>Contents</h3>
-					<ol>
-						<li style="opacity: 0.5;">Overview of casein and whey protein chemistry</li>
-						<li style="opacity: 0.5;">Making acid casein and sodium caseinate</li>
-						<li style="opacity: 0.5;">Demo of cross-flow filtration unit at UCC</li>
-						<li style="color:rgb(223, 193, 27)">4D visualisation of filtration and data collection</li>
-					</ol>
-				</section>
-				
-				<section data-auto-animate>
-					<h3 style="opacity: 0.0;">Contents</h3>
-					<ol>
-						<li style="opacity: 0.0;">Overview of casein and whey protein chemistry</li>
-						<li style="opacity: 0.0;">Making acid casein and sodium caseinate</li>
-						<li style="opacity: 0.0;">Demo of cross-flow filtration unit at UCC</li>
-						<li style="opacity: 0.0">4D visualisation of filtration and data collection</li>
-					</ol>
-				</section>
-				
-				<section data-markdown data-separator="\n---\n$">
-					<script type="text/template">
-						<h4 style="color:darkorange">Skim Milk: Components and Functions</h3>
-	
-						|***Component***|***Level(%)***|***Properties***              |
-						|:--------|:--------:|---------------------------------:|
-						|Water    |90    |Solvent, growth medium               |
-						|Lactose  |5     |Sweetness, calorie source                   |
-						|Protein  |3.5   |Surfactant, *aa* source  |
-						|Ash      |1.0   |Mineral source, saltiness                  |
-					</script>
-				</section>
-				<section>
-					<p class="fragment grow">🥛 + 🍋 = ❓</p>
-				</section>
-				<!-- how to add controls to background videos??? -->
-				<section data-background-video="vids/iso_elec.mp4" data-background-color="#000000"> 
-				</section>
-				
-				<section data-auto-animate>
-					<h3 style="color: darkorange;">Making acid casein</h3>
-					<ul>
-					  <li>Milk</li>
-					  <li>Lemon juice</li>
-					  <li>Water</li>
-					</ul>
-				  </section>
+				<ol>
+					<li style="opacity: 0.5;">Overview of casein and whey protein chemistry</li>
+					<li style="color:rgb(223, 193, 27)">Making acid casein and sodium caseinate</li>
+				</ol>
+			</section>
+			
+			<section data-auto-animate>
+				<h3>Contents</h3>
+				<ol>
+					<li style="opacity: 0.5;">Overview of casein and whey protein chemistry</li>
+					<li style="opacity: 0.5;">Making acid casein and sodium caseinate</li>
+					<li style="color:rgb(223, 193, 27)">Demo of cross-flow filtration unit at UCC</li>
+				</ol>
+			</section>
+			
+			<section data-auto-animate>
+				<h3>Contents</h3>
+				<ol>
+					<li style="opacity: 0.5;">Overview of casein and whey protein chemistry</li>
+					<li style="opacity: 0.5;">Making acid casein and sodium caseinate</li>
+					<li style="opacity: 0.5;">Demo of cross-flow filtration unit at UCC</li>
+					<li style="color:rgb(223, 193, 27)">4D visualisation of filtration and data collection</li>
+				</ol>
+			</section>
+			
+			<section data-auto-animate>
+				<h3 style="opacity: 0.0;">Contents</h3>
+				<ol>
+					<li style="opacity: 0.0;">Overview of casein and whey protein chemistry</li>
+					<li style="opacity: 0.0;">Making acid casein and sodium caseinate</li>
+					<li style="opacity: 0.0;">Demo of cross-flow filtration unit at UCC</li>
+					<li style="opacity: 0.0">4D visualisation of filtration and data collection</li>
+				</ol>
+			</section>
+			
+			<section data-markdown data-separator="\n---\n$">
+				<script type="text/template">
+					<h4 style="color:darkorange">Skim Milk: Components and Functions</h3>
 
-				<section data-auto-animate>
-					<h3 style="color: darkorange;">...and sodium caseinate</h3>
-					<ul>
-					  <li>Milk</li>
-					  <li>Lemon juice</li>
-					  <li>Baking soda</li>
-					  <li>Water</li>
-					</section>
-				<!-- the chart is not working!!! -->
-					
-				<section>
-					<div>
-						<h3>Protein Profile</h3>
-						<canvas data-chart="pie">
-						,Casein, Whey Protein
-						My first dataset, 80, 20
-						My second dataset, 98, 2
-						</canvas>
-					</div>
-				</section>
+					|***Component***|***Level(%)***|***Properties***              |
+					|:--------|:--------:|---------------------------------:|
+					|Water    |90    |Solvent, growth medium               |
+					|Lactose  |5     |Sweetness, calorie source                   |
+					|Protein  |3.5   |Surfactant, *aa* source  |
+					|Ash      |1.0   |Mineral source, saltiness                  |
+				</script>
+			</section>
+			<section>
+				<p class="fragment grow">🥛 + 🍋 = ❓</p>
+			</section>
+			<!-- how to add controls to background videos??? -->
+			<section data-background-video="vids/iso_elec.mp4" data-background-color="#000000"> 
+			</section>
+			
+			<section data-auto-animate>
+				<h3 style="color: darkorange;">Making acid casein</h3>
+				<ul>
+				  <li>Milk</li>
+				  <li>Lemon juice</li>
+				  <li>Water</li>
+				</ul>
+			  </section>
 
-				<section data-background-video="vids/ACN_pfd.mp4" data-background-color="#000000" data-background-transition="fade" data-transition-speed="slow">
+			<section data-auto-animate>
+				<h3 style="color: darkorange;">...and sodium caseinate</h3>
+				<ul>
+				  <li>Milk</li>
+				  <li>Lemon juice</li>
+				  <li>Baking soda</li>
+				  <li>Water</li>
 				</section>
+			<!-- the chart is not working!!! -->
+			<section>
+				<h3>Pie chart</h3>
+				<canvas class="stretch" data-chart="pie">
+				,Casein, Whey Protein
+				My first dataset, 80, 20
+				My second dataset, 98, 2
+			</canvas>
+			</section>
 
-				<!-- <section data-background="#ffffff">
-					<h3>Making Dairy Ingredients in the Kitchen</h3>
-					<video data-autoplay src="vids/ACN_kitch.mp4" controls data-preload></video>
-					<p>Get video link in course notes or contact me <a href="mailto:shane.crowley@ucc.ie"> by email</a></p>
-				</section> -->
+			<section data-background-video="vids/ACN_pfd.mp4" data-background-color="#000000" data-background-transition="fade" data-transition-speed="slow">
+			</section>
 
-				<section data-background-transition="fade" data-transition-speed="slow">
-					<h3 style="color: darkorange;">Questions to consider...</h3>
-					<ul>
-						<li>What lab equipment would have helped?</li>
-						<li>Which steps presented problems and why?</li>
-						<li>How could the whey protein be recovered?</li>
-						<li>Did you do anything differently?</li>
-				</section>
+			<section data-background-transition="fade" data-transition-speed="slow">
+				<h3 style="color: darkorange;">Questions to consider...</h3>
+				<ul>
+					<li>What lab equipment would have helped?</li>
+					<li>Which steps presented problems and why?</li>
+					<li>How could the whey protein be recovered?</li>
+					<li>Did you do anything differently?</li>
+			</section>
 
-				<section data-background-video="vids/roll_pink.mp4" data-background-color="#000000">
-					<div style="background-color: rgba(0, 0, 0, 0.5); color: #fff; padding: 20px;">
-						<h3>Preserving Natural Structures with Cross-flow Filtration </h3>
-					</div>
-				</section>
+			<section data-background-video="vids/roll_pink.mp4" data-background-color="#000000">
+				<div style="background-color: rgba(0, 0, 0, 0.5); color: #fff; padding: 20px;">
+					<h3>Preserving Natural Structures with Cross-flow Filtration </h3>
+				</div>
+			</section>
 
-				<section data-transition="slide" data-background="#ffb3ff" data-background-transition="zoom">
-					<h2>Cross-flow Filtration</h2>
-					<p>
-						To make acid casein the proteins must be <i>chemically modified</i> before filtration.
-						If smaller-pore filters are used it is possible to recover proteins without causing
-						these modifications. However, to push liquid through these filters greater <i>pressure</i>
-						and <i>turbulence</i> is required.
-					</p>
-					<p>
-						A demo of the UCC equipment by <i>PhD student <b>Tom France</b>
-						can be found on the UCC <a>Canvas</a> page</i>
-					</p>
-				</section>
+			<section data-transition="slide" data-background="#ffb3ff" data-background-transition="zoom">
+				<h2>Cross-flow Filtration</h2>
+				<p>
+					To make acid casein the proteins must be <i>chemically modified</i> before filtration.
+					If smaller-pore filters are used it is possible to recover proteins without causing
+					these modifications. However, to push liquid through these filters greater <i>pressure</i>
+					and <i>turbulence</i> is required.
+				</p>
+				<p>
+					A demo of the UCC equipment by <i>PhD student <b>Tom France</b>
+					can be found on the UCC <a>Canvas</a> page</i>
+				</p>
+			</section>
+			
+			<!-- this video freaks out on mobile - consider iframe or image -->
+			<section data-background="#ffb3ff">
+				<video data-autoplay src="vids/pro_frac_vid_c.mp4" data-preload></video>
+				<p>Get video link in course notes or contact me <a href="mailto:shane.crowley@ucc.ie"> by email</a></p>
+			</section>
+
+			<section data-background="#ffb3ff">
+				<h3>Other questions to consider...</h3>
+				<ul>
+					<li>What details can you find about the membrane?</li>
+					<li>Why does feed volume decrease before any permeate is observed?</li>
+					<li>Is there a trend in flux and, if so, what is it?</li>
+					<li>What is the pump used and how does it work?</li>
+			</section>
 				
-				<!-- this video freaks out on mobile - consider iframe or image -->
-				<section data-background="#ffb3ff">
-					<video data-autoplay src="vids/pro_frac_vid_c.mp4" data-preload></video>
-					<p>Get video link in course notes or contact me <a href="mailto:shane.crowley@ucc.ie"> by email</a></p>
-				</section>
+			<section data-background="#ffb3ff">
+				<h3>Let me know if you have any questions</h3>
+			</section>
 
-				<section data-background="#ffb3ff">
-					<h3>Other questions to consider...</h3>
-					<ul>
-						<li>What details can you find about the membrane?</li>
-						<li>Why does feed volume decrease before any permeate is observed?</li>
-						<li>Is there a trend in flux and, if so, what is it?</li>
-						<li>What is the pump used and how does it work?</li>
-				</section>
-					
-				<section data-background="#ffb3ff">
-					<h3>Let me know if you have any questions</h3>
-				</section>
-				
-            </div>
 		</div>
+	</div>
 
-		<script src="./dist/reveal.js"></script>
-        	<script src="./plugin/markdown/markdown.js"></script>
-        	<script src="./plugin/highlight/highlight.js"></script>
-		<script src="./plugin/notes/notes.js"></script>
-		<script src="./plugin/math-katex/math-katex.js"></script>
-		<script src="./plugin/chalkboard/plugin.js"></script>
-		<script src="./plugin/zoom/zoom.js"></script>
-		<script src="./plugin/chart/Chart.min.js"></script>
-<!-- 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script> -->
-		<script src="./plugin/chart/plugin.js"></script>
 
-		<script>
+	<script>
 
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				controls: true,
 				progress: true,
 				history: true,
 				center: true,
-				mouseWheel: true,
 				chart: {
 					defaults: { 
 						global: { 
@@ -250,7 +245,6 @@
 							},
 							tooltips: {
 								labels: { fontColor: "#FFF" },
-// 							animation: null,
 							},
 						}, 
 						scale: { 
@@ -261,19 +255,14 @@
 					},
 					line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ] }, 
 					bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
-					pie: { backgroundColor: [ ["rgba(153,0,153,.8)" , "rgba(0,204,153,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+					pie: { backgroundColor: [ ["rgba(153,0,204,.8)" , "rgba(51,204,204,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
 					radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
 				},
 
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom, RevealChalkboard, RevealChart ],
+				plugins: [ RevealMarkdown, RevealHighlight, RevealChalkboard, RevealChart ],
 
-				dependencies: [
-       				 { src: 'plugin/math-katex/math-katex.js', async: true },
-				 { src: 'plugin/chalkboard/plugin.js' },
-    ]
 			});
+	</script>
 
-		</script>
-
-	</body>
+</body>
 </html>
