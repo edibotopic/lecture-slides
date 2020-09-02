@@ -1,14 +1,15 @@
 ## Using these slides
-All slides on this page are basic versions of those used in my lectures on youtube. They have been optimised for web and mobile use, which mainly involves replacing high-res videos with low-res images. It is possible to include videos but the site would eventually become quite slow, and the videos are up on youtube anyway. To hear me talk and draw through the lectures you will need to go to the corresponding youtube video, a link to which is included within each set of slides. Navigating the slides is fairly straightforward, you just move forwards and backwards with arrow keys (computer) or by swiping (phone/tablet). I have included some additional instructions below:  
+All slides on this page are ***basic versions of full lectures*** on youtube. They have been optimised for web and mobile use, which typically involves compressing videos into low-res formats. ***Longer videos may be replaced*** to prevent slowdown. If you want the ***audio and drawings*** that accompany the lectures you must go to the relevant youtube video (you will find links in the slides). Navigating the slides is easy, you just move forwards and backwards with arrow keys (computer) or by swiping (phone/tablet). I have mostly tested the slides on Chrome and Firefox; if you use a less common browser (Internet Explorer, Safari, Edge, etc.) and are encountering issues please let me know. See additional instructions below:  
   
-📺**Full screen**: press the <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">F</mark> key  
-~~🎮**View video controls**: hover cursor over video~~  
-🔎**Zoom in**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">alt+leftmousebutton</mark>  
-👨‍🎨👩‍🎨**Draw on slides**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">C</mark> to toggle pen for drawing  
-🌈**Pen colour**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">X</mark> to cycle and 
-<mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">Y</mark> to revert 
+📺**Full screen** (recommended): press the <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">F</mark> key  
+🎮**View video controls**: hover cursor over video. If you still don't see the controls <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">right click</mark> and select 'show controls' in the popup menu
+<!-- 🔎**Zoom in**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">alt+leftmousebutton</mark>   -->
+👨‍🎨👩‍🎨**Draw on slides**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">C</mark> to toggle pen for drawing. Unfortunately, you will not be able to save these drawings but you may wish to take a screenshot.  
+🌈**Pen colour**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">X</mark> to cycle through colours and <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">Y</mark> to cycle back 
 
-:printer: **Printing**: these slides were not meant for printing but if you insist you can right click and select print, which will render the slides as plain html (basic but fine). If for some reason you want a printout that is formatted like the slides you will need to mess with the url by changing a few characters at the end of the url; for example, changing https://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html#/1 to https://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html?print-pdf will render a pdf that looks more or less the same as the slides. Note: your drawings will not be included in the printout.
+:printer: **Printing**: these slides were not designed for printing but if you insist you can <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">right click</mark> and select 'print' or 'save as pdf' as needed, which will render the slides as ***plain html***. If you want a printout that is formatted like the slides you will need to change a few characters at the end of the url; for example, changing https://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html#/1 to https://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html?print-pdf will render a pdf that looks more or less the same as the slides.
+
+:phone: the slides should work well on your phone or tablet, although there may be a little less functionality. If any images or videos don't show well try to switch your device from portrait to landcape view. I have tested this on android and it worked fine. 
 
 ## Food Technology, Culture & Ethics :green_salad:
 Slides to be posted at later date...
@@ -23,9 +24,9 @@ Slides to be posted at later date...
 ## Food Analysis and Processing :microscope:
 *Making protein ingredients from milk using **selective precipitation** and **membrane filtration**:*
 
-[Protein Fractionation [rough draft for testing](http://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html)
+[Protein Fractionation [rough draft for testing]](http://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html)
 
 ---
 
 ## About :question:
-Shane is a lecturer at University College Cork (UCC), Ireland. He has degrees in science and philosophy with research interests that span both.
+Shane is a lecturer at University College Cork (UCC), Ireland. He has degrees in science and philosophy with research interests in both.
