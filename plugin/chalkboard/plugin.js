@@ -81,7 +81,7 @@ const initChalkboard = function(Reveal){
 
 	var theme = "chalkboard";
 	var color = [0, 0];
-	var toggleChalkboardButton = true;
+	var toggleChalkboardButton = false;
 	var toggleNotesButton = true;
 	var transition = 800;
 
