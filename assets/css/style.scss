@@ -3,13 +3,13 @@
 
 @import "{{ site.theme }}";
 
-body {
-  background-color: #fff;
-  padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
-  font-weight:400;
-}
+// body {
+//   background-color: #fff;
+//   padding:50px;
+//   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+//   color:#727272;
+//   font-weight:400;
+// }
 
 // h1, h2, h3, h4, h5, h6 {
 //   color:#222;
@@ -24,10 +24,9 @@ body {
 //   line-height:1.1;
 // }
 
-h1 {
-  color: px;
-  font-size:28px;
-}
+// h1 {
+//   font-size:28px;
+// }
 
 // h2 {
 //   color:#393939;
@@ -107,13 +106,12 @@ h1 {
 //   max-width:100%;
 // }
 
-header {
-  background-color: #fff;
-  width:270px;
-  float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
-}
+// header {
+//   width:270px;
+//   float:left;
+//   position:fixed;
+//   -webkit-font-smoothing:subpixel-antialiased;
+// }
 
 // ul.downloads {
 //   list-style:none;
@@ -175,14 +173,11 @@ header {
 //   color:#222;
 // }
 
-section {
-  background-color: #ffdbfe;
-  width:500px;
-  float:right;
-  padding-bottom:50px;
-  padding-right:50px;
-  padding-left:50px;
-}
+// section {
+//   width:500px;
+//   float:right;
+//   padding-bottom:50px;
+// }
 
 // small {
 //   font-size:11px;
