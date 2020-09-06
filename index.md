@@ -4,12 +4,12 @@ All slides on this page are ***basic versions of full lectures*** found on youtu
 📺**Full screen** (recommended): press the <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">F</mark> key  
 🎮**View video controls**: hover cursor over video. If you still don't see the controls <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">right click</mark> and select 'show controls' in the popup menu
 <!-- 🔎**Zoom in**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">alt+leftmousebutton</mark>   -->
-👨‍🎨👩‍🎨**Draw on slides**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">C</mark> to toggle pen for drawing. The simplest way to capture your drawings is to take a screenshot on your computer, phone or tablet.
+👨‍🎨👩‍🎨**Draw on slides**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">C</mark> to toggle pen for drawing or press the blue icon at the bottom left of the screen. The simplest way to capture your drawings is to take a screenshot on your computer, phone or tablet.
 🌈**Pen colour**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">X</mark> to cycle through colours and <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">Y</mark> to cycle back 
 
 :printer: **Printing**: these slides were not designed for printing but if you insist you can <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">right click</mark> and select 'print' or 'save as pdf' as needed, which will render the slides as ***plain html***. If you want a printout that is formatted like the slides you will need to change a few characters at the end of the url; for example, changing https://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html#/1 to https://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html?print-pdf will render a pdf that looks more or less the same as the slides.
 
-:phone: the slides should work well on your phone or tablet, although there may be a little less functionality. If any images or videos don't show well try to switch your device from portrait to landcape view. I have tested this on android and it worked fine. 
+:phone: the slides should work well on your phone or tablet, although there may be a little less functionality. If any images or videos don't show well try to switch your device between portrait to landcape view. I have tested this on android and it worked well. 
 
 ## Food Technology, Culture & Ethics :green_salad:
 Slides to be posted at later date...
