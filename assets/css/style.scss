@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 body {
-  background-color: #f5c4f4;
+  background-color: #fff;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -174,11 +174,12 @@ header {
 //   color:#222;
 // }
 
-// section {
-//   width:500px;
-//   float:right;
-//   padding-bottom:50px;
-// }
+section {
+  background-color: #ffdbfe;
+  width:500px;
+  float:right;
+  padding-bottom:50px;
+}
 
 // small {
 //   font-size:11px;
