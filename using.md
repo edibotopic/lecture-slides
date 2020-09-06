@@ -1,6 +1,6 @@
 ---
 layout: page
-title: using
+title: using the slides
 ---
 
 All slides on this page are ***basic versions of full lectures*** found on youtube. They have been optimised for web and mobile use, which typically involves compressing videos into low-res formats. ***Longer videos may be replaced*** by links or images to prevent slowdown of the site. If you want the ***audio and drawings*** that accompany the lectures you must go to the relevant youtube video - you will find clickable and scannable links in the slides. Navigating the slides is easy, you just move forwards and backwards with arrow keys (computer) or by swiping (phone/tablet). I have mostly tested the slides on Chrome and Firefox; if you use a less common browser (Internet Explorer, Safari, Edge, etc.) and are encountering issues please let me know. See additional instructions below:  
