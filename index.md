@@ -1,6 +1,8 @@
 ---
-Courses
+layout: page
+title: courses
 ---
+
 ## Food Technology, Culture & Ethics :green_salad:
 Slides to be posted at later date...
 
