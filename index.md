@@ -14,8 +14,8 @@ Slides to be posted at later date...
 ---
 
 ## Food Analysis and Processing :microscope:
-*Making protein ingredients from milk using **selective precipitation** and **membrane filtration**:*
+*Lecture, practical demonstration and 3D visualisation on making protein ingredients from milk using **isoelectric precipitation** and **membrane filtration**:*
 
-[Protein Fractionation](http://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html)
+Slides: [Protein Fractionation](http://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html)
 
 ---
