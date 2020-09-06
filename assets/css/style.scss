@@ -106,12 +106,13 @@ body {
 //   max-width:100%;
 // }
 
-// header {
-//   width:270px;
-//   float:left;
-//   position:fixed;
-//   -webkit-font-smoothing:subpixel-antialiased;
-// }
+header {
+  background-color: #fff;
+  width:270px;
+  float:left;
+  position:fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
 
 // ul.downloads {
 //   list-style:none;
