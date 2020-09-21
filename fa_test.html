@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Food Technology, Culture & Ethica</title>
+
+	<meta name="description" content="Protein Fractionation">
+	<meta name="author" content="Shane Crowley">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+	<link rel="stylesheet" href="./css/reveal.css">
+	<link rel="stylesheet" href="./dist/theme/shanestheme.css" id="theme">
+	<link rel="stylesheet" href="./plugin/highlight/monokai.css">
+	<link rel="stylesheet" href="./css/print/pdf.scss" type="text/css" media="print">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css"> -->
+	<link rel="stylesheet" href="./las/1.3.0/css/line-awesome.min.css">
+
+	<script src="./dist/reveal.js"></script>
+    <script src="./plugin/markdown/markdown.js"></script>
+	<script src="./plugin/highlight/highlight.js"></script>
+	<script src="./plugin/chart/Chart.min.js"></script>
+	<script src="./plugin/chart/plugin.js"></script>
+	<script src="./plugin/math/math.js", async: true></script>
+	<script src="./plugin/chalkboard/plugin.js"></script>
+	<script src="https://kit.fontawesome.com/7aef6575d6.js" crossorigin="anonymous"></script>
+	<script src="./plugin/menu/menu.js"></script>
+	<script src="./plugin/menu/plugin.js"></script>
+	<!-- <script src="./plugin/zoom/zoom.js", async: false></script> -->
+
+</head>
+
+<body>
+
+	<div class="reveal">
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section>
+				<section>
+				<h2>Using font awesome and line awesome</h1>
+				<h3><i>Dr Shane V Crowley</i></h3>
+				<p><small>Press <b>down</b> for controls and <b>right</b> to progress</small></p>
+				</section>
+				<section>
+					<h3 style>Interacting with the Slides</h3>
+					<p><b>📺Full screen</b>: press the <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">F</mark> key</p>
+					<p><b>🎮View video controls</b>: hover cursor over video</p>
+					<!-- <p><b>🔎Zoom in</b>: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">alt+leftmousebutton</mark></p> -->
+					<p>👩‍🎨<i class="fas fa-pen" style="color: yellow;"></i><b> Draw</b>: click icon or press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">C</mark></p>
+					<p><b>🌈Pen colour</b>: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">X</mark> to cycle and 
+					<mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">Y</mark> to revert</p>
+					<p>💁<i class="fas fa-bars" style="color: yellow;"></i><b> Options and Info</b>: click icon or press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">M</mark>  </p>
+				</section>
+			</section>
+
+			<section>
+				<div class="fa-5x">
+				<i class="fas fa-smile" style="color: aquamarine;"></i>				
+				<i class="fas fa-frown" style="color: yellow;"></i>
+				</div>	
+				<pre><label style="color: white;">html</label><code data-trim="true" data-noescape="true" class="html" style="word-wrap: break-word; position: absolute;" >
+				&lt;div class=&quot;fa-5x&quot;&gt;
+				&lt;i class=&quot;fas fa-smile&quot; style=&quot;color: aquamarine;&quot;&gt;&lt;/i&gt;				
+				&lt;i class=&quot;fas fa-frown&quot; style=&quot;color: yellow;&quot;&gt;&lt;/i&gt;
+				&lt;/div&gt;
+				</code></pre>
+			</section>
+
+			<section>
+				<div class="rotate fa-10x" width="300px" height="300px">
+				<i class="la la-yin-yang" style="color: white;"></i>
+				</div>
+				<pre style="bottom: 100px;"><label style="color: white;">html</label><code data-trim="true" data-noescape="true" class="html" style="word-wrap: break-word; position: absolute;">
+				&lt;div class=&quot;rotate fa-10x&quot; width=&quot;300px&quot; height=&quot;300px&quot;&gt;
+				&lt;i class=&quot;la la-yin-yang&quot; style=&quot;color: yellow;&quot;&gt;&lt;/i&gt;
+				&lt;/div&gt;
+				</code></pre>
+			</section>
+
+			<section>
+				<pre><label style="color: white;">CSS</label><code data-trim="true" data-noescape="true" class="css" style="word-wrap; break-word;">
+					/* rotate object slowly on loop */
+					.rotate {
+					animation: rotation 8s infinite linear;
+					}
+
+					@keyframes rotation {
+					from {
+						transform: rotate(0deg);
+					}
+					to {
+						transform: rotate(359deg);
+					}
+					}
+				</code></pre>
+			</section>
+
+			<section>
+				<div class="rotate fa-5x" style="float: left;">
+					<i class="la la-brain" style="color: palevioletred"></i>
+				</div>
+				<div class="rotate fa-5x" style="float: right;">
+					<i class="la la-brain" style="color: green"></i>
+				</div>
+				<pre style="top: 250px; right: 200px;"><label style="color: white;">html</label><code data-trim="true" data-noescape="true" class="html" style="word-wrap: break-word; position: absolute;">
+				&lt;div class=&quot;rotate fa-10x&quot; style=&quot;float: left;&quot;&gt;
+					&lt;i class=&quot;la la-brain&quot; style=&quot;color: palevioletred&quot;&gt;&lt;/i&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;rotate fa-10x&quot; style=&quot;float: right;&quot;&gt;
+					&lt;i class=&quot;la la-brain&quot; style=&quot;color: green&quot;&gt;&lt;/i&gt;					
+				&lt;/div&gt;	
+				</code></pre>
+			</section>
+
+			<section>
+				<div class="throb fa-5x" style="float: none;">
+					<i class="la la-heart" style="color:red"></i>
+				</div>
+			</section>
+
+			<section>
+				<div class=" squaresmooth" float: none;"></div>
+			</section>
+
+		</div>
+	</div>
+
+	<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.configure({ pdfSeparateFragments: false });
+			Reveal.initialize({
+				// for gh set controls to true and toggle chalkboard.js to true also
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+				slideNumber: 'c',
+				// below changes (should) make SPC pause/play video
+				keyboard: {
+					13: 'next',
+					32: () => {
+						var currentSlide = Reveal.getCurrentSlide();
+						var currentVideo = currentSlide.getElementsByTagName("video")[0];
+						if (currentVideo) {
+							if (currentVideo.paused == true) currentVideo.play();
+							else currentVideo.pause();
+						}
+						else {
+							Reveal.next();
+						}
+					}
+				},
+				chart: {
+					defaults: { 
+						global: { 
+							title: { fontColor: "#FFF" }, 
+							legend: {
+								position: "bottom",
+								labels: { fontColor: "#FFF" },
+							},
+							tooltips: {
+								labels: { fontColor: "#FFF" },
+							},
+						},
+						scale: { 
+							scaleLabel: { fontColor: "#FFF" }, 
+							gridLines: { color: "#FFF", zeroLineColor: "#FFF" }, 
+							ticks: { fontColor: "#FFF" }, 
+						} 
+					},
+					line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ] }, 
+					bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+					pie: { backgroundColor: [ ["rgba(255,255,68,.8)" , "rgba(238,130,238,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+					radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+				},
+
+				menu: {
+					numbers: 'c',
+					width: 'normal',
+					openSlideNumber: true,
+					markers: 'true',
+					themes:
+					[
+						{ name: 'Shane\'s theme', theme: 'dist/theme/shanestheme.css'},
+						{ name: 'Dark theme', theme: 'dist/theme/night.css' },
+						{ name: 'Light theme', theme: 'dist/theme/simple.css' },
+						{ name: 'Sky theme', theme: 'dist/theme/sky.css' },
+						{ name: 'Serif theme', theme: 'dist/theme/serif.css' },
+					],
+					themesPath: 'dist/theme/',
+					transitions: false,
+					useTextContentForMissingTitles: true,
+					hideMissingTitles: true,
+					custom: [
+					{
+						title: 'Links',
+						icon: '<i class="fa fa-external-link">',
+						content:
+						'<h2>Interesting Links</h2> <a href="https://en.wikipedia.org/wiki/Food_science">Food Science wiki</a> <br><br> <a href="https://www.npr.org/sections/thesalt/2014/01/02/256605441/punishing-inmates-with-the-loaf-persists-in-the-u-s?t=1600104661662"> NPR nutraloaf article</a> <br><br> <a href="https://www.wired.co.uk/article/huel-soylent-meal-replacement-drinks">Wired article on Soylent</a>'
+					},
+					{
+						title: 'About',
+						icon: '<i class="fa fa-info">',
+						content: '<p>Introductory lecture for FS1005 with a general overview of the content and some comments on module practicalities. The full lecture can be found on youtube and notes are provided to my class separately. </p>'
+					}
+					]
+					
+            	},
+
+
+				plugins: [ RevealMarkdown, RevealHighlight, RevealChalkboard, RevealChart, RevealMath, RevealMenu ],
+
+			});
+	</script>
+
+</body>
+</html>
