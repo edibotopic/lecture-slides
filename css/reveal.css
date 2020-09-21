@@ -2497,7 +2497,7 @@ html.print-pdf .aria-status {
  }
 
  .squaresmooth:hover {
-  animation: squaretocircle 4s linear alternate;
+  animation: squaretocircle 2s infinite linear alternate;
 }
 
  @keyframes squaretocircle {
