@@ -1820,3 +1820,58 @@ $notesWidthPercent: 25%;
 @import 'print/pdf.scss';
 @import 'print/paper.scss';
 
+/*********************************************
+ * SHANE'S STYLES
+ *********************************************/
+
+ /* square to circle */
+ .squaresmooth  {
+   width: 200px;
+   height: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #ff17f7;
+   /* animation: squaretocircle 4s infinite linear alternate; */
+ }
+
+ .squaresmooth:hover {
+  animation: squaretocircle 4s linear alternate;
+}
+
+ @keyframes squaretocircle {
+  0%  {
+    border-radius:0%;}
+
+  100% {  
+    border-radius:50%;
+  }
+}
+
+/* rotate object slowly on loop */
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* throbbing effect like hearbeat */
+.throb {
+  animation: throbbing 1s infinite linear alternate;
+}
+
+@keyframes throbbing {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.3);
+  }
+}
+
