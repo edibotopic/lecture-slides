@@ -267,7 +267,7 @@
 
 .reveal table tbody tr:last-child th,
 .reveal table tbody tr:last-child td {
-  border-bottom: 5px solid pink;
+  border-bottom: 5px solid #ee82eeff;
 }
 
 .reveal sup {
