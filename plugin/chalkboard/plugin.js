@@ -56,8 +56,8 @@ const initChalkboard = function(Reveal){
 	var background, pen, draw, color;
 	var grid = false;
 	var boardmarkerWidth = 3;
-	var chalkWidth = 7;
-	var chalkEffect = 1.0;
+	var chalkWidth = 3;
+	var chalkEffect = 0.01;
 	var rememberColor = [true, false];
 	var eraser = { src: path + 'img/sponge.png', radius: 40};
 	var boardmarkers = [
