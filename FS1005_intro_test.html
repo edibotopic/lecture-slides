@@ -177,9 +177,14 @@
 				</text>
 				</svg>
 
+				<audio id="audio" src="/audio/typing_3s.mp3"></audio>
+				
+				<!-- move this to an external file -->
 				<script>
 					function myFunction() {
 					  document.getElementById("typing").beginElement();
+					  document.getElementById("audio");audio.play();
+					  audio.volume=0.1;
 					}
 				</script>
 			</section>
