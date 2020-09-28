@@ -2486,6 +2486,22 @@ html.print-pdf .aria-status {
  * SHANE'S STYLES
  *********************************************/
 
+/* Container holding image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block-center {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(14, 214, 221, 0.55);
+  color: white;
+}
+/* ********************************************* */
+
  /* square to circle */
  .squaresmooth  {
    width: 200px;
