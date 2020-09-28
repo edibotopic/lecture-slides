@@ -4,7 +4,9 @@ title: courses
 ---
 ---
 ## :green_salad:Food Technology, Culture & Ethics 
-Slides to be posted at later date...
+Slides posted by 4 pm Wednesday each week...
+
+Lecture#0 [Introduction](http://edibotopic.github.io/lecture-slides/FS1005_0.html)
 
 ---
 
