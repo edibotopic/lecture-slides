@@ -4,5 +4,6 @@ theme: jekyll-theme-minimal
 title: [Shane's Lectures]
 description: [On food technology and philosophy]
 
+google_analytics: [UA-179248620-1]
 plugins:
   - jemoji
