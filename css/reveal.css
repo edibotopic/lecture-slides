@@ -147,8 +147,8 @@ html.reveal-full-page {
 .reveal .slides section .fragment {
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: all .2s ease;
-  transition: all .2s ease;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
   will-change: opacity;
 }
 
@@ -2539,9 +2539,12 @@ html.print-pdf .aria-status {
   }
 }
 
+/* rotate object on click */
+
+
 /* throbbing effect like hearbeat */
 .throb {
-  animation: throbbing 1s infinite linear alternate;
+  animation: throbbing 2s infinite linear alternate;
 }
 
 @keyframes throbbing {
@@ -2576,4 +2579,23 @@ html.print-pdf .aria-status {
   100% {
       stroke-dashoffset: 0;
   }
+}
+
+/* img filters */
+.hue {
+  animation: hue 10s infinite;
+}
+
+@keyframes hue {
+  0%, 100%  {filter: hue-rotate(0deg); }
+  50% {filter: hue-rotate(180deg); }
+}
+
+.deblur:hover {
+  animation: deblur 5s normal forwards 1;
+}
+
+@keyframes deblur {
+  0%  {filter: blur(50px); }
+  100%  {filter: blur(0px); }
 }
