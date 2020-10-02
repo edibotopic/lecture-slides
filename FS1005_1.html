@@ -42,7 +42,7 @@
 		<div class="slides">
 			<section>
 				<section>
-				<h2>Ontology I: What Kind of thing is Food?</h1>
+				<h2>Ontology: What Kind of thing is Food?</h1>
 				<h3><i>Dr Shane V Crowley</i></h3>
 				<p><small>Press <b>down</b> for controls and <b>right</b> to progress</small></p>
 				</section>
@@ -80,7 +80,8 @@
 			
 			<section>
 				<h3>A Broad Domain</h3>
-				<div class="rotate fa-2x" style="float: left; padding: 20px;">
+				<br>
+				<div class="rotate fa-2x" style="float:left; padding: 20px;">
 					<i class="la la-candy-cane" style="color: white"></i>
 				</div>
 				<div class="rotate fa-2x" style="float: left; padding: 20px;">
@@ -92,6 +93,7 @@
 				<div class="rotate fa-2x" style="float: left; padding: 20px;">
 					<i class="fas fa-hamburger" style="color: burlywood"></i>					
 				</div>	
+
 				<div class="rotate fa-2x" style="float: left; padding: 20px;">
 					<i class="fas fa-carrot" style="color: darkorange"></i>
 				</div>
@@ -107,7 +109,7 @@
 
 				<br> <br> <br>
 
-				<blockquote>
+				<blockquote class="fragment fade-up">
 					<small>
 					noun: material consisting essentially of protein, carbohydrate, 
 					and fat used in the body of an organism to sustain growth, 
@@ -119,17 +121,20 @@
 
 			</section>
 			
-			<!-- <section>
-				<h3>Foods of the Future</h3>
-				<img src="img\utopias.png" id="utopias" class="hue" style="background-size: cover; background-position: center; background-repeat: no-repeat;" />
-			</section> -->
+			<section>
+				<h3>Do food scientists care about whiskey?</h3>
+			</section>
+
+			<section>
+				<h3>Is food a drug?</h3>
+			</section>
 
 			<section data-background-image="img\utopias.png" class="hue">
 				<h2 style="color: white;">Foods of the Future</h3>
 			</section>
 
 			<section data-background-image="img\menulator.gif">
-				<blockquote style="background-color: turquoise; opacity: 0.75;"><p style="color: black; ">Utopias envision futures where eating has been automated and rationalised</p></blockquote>
+				<blockquote style="background-color: turquoise; opacity: 0.75;"><p style="color: black; ">Utopias envision bright futures where eating has been automated and rationalised</p></blockquote>
 			</section>
 
 			<section data-background-image="https://i.makeagif.com/media/9-26-2016/-3yf43.gif">
@@ -137,14 +142,15 @@
 			</section>
 
 			<section>
-				<h3>Future-present?</h3>
+				<h3>Utopian Food Technologies</h3>
 				<!-- make your own -->
 			<iframe src="https://giphy.com/embed/3oEjHMURe9Te9XQf3q" width="440" height="270" frameBorder="0" class="embed"></iframe>
 			<img src="img\not_ppl.png" width="280" height="240" class="deblur" style="filter: blur(50px);"/>
 			</section>
 
-			<section data-background-color="black">
+			<section data-background-color="black" data-transition="zoom">
 				<button style="background-color: black; border-color: #ffffff; color: #ffffff;" id="trigger" onclick="myFunction()">CLICK FOR FOOD</button></h3>
+				<br>
 				<video id="BNW" src="vids\BNW.mp4" on></video>
 
 				<audio id="audio">
@@ -163,8 +169,25 @@
 
 				<br>
 				<br>
-				<small class="fragment fade-in">From Aldous Huxley's <i>Brave New World</i></small>
+				<small class="fragment fade-in">Molecularised food in Aldous Huxley's <i>Brave New World</i></small>
 
+			</section>
+
+			<section data-background-color="beige" data-transition="zoom">
+				<img class = "shake" src="img\natural_text.png">
+
+				<audio id="myNatureSounds" data-autoplay loop>
+					<source data-src="audio/nature_sounds0.mp3" type="audio/mpeg">
+					<source data-src="audio/nature_sounds0.wav" type="audio/wav">
+					<source data-src="audio/nature_sounds0.ogg" type="audio/ogg">
+				</audio>
+
+				<p style="color: black;">"Don't eat anything incapable of rotting"<br>- <i>Pollen from In Defense of Food</i></p>
+
+				<script>
+					var audio = document.getElementById("myNatureSounds");
+					audio.volume = 0.4;
+				  </script>
 			</section>
 
 			<section>
@@ -178,20 +201,22 @@
 				<small style="float: right;">see Borghini "The Metaphysics of Natural Food"</small>
 			</section>
 
+		
+
 			<section>
-				<h3>Being Romantic</h3>
-				<div class="throb fa-5x" style="float: none;">
+				<h3>Being Romantic about the Past</h3>
+				<div class="throb fa-5x" style="float: none;  width: 100%;">
 					<i class="la la-heart hue" style="color:red"></i>
 				</div>
 				<p><i>"Man is born free and everywhere he is in chains"</i>
 				</p>
 				<br>
-				<small style="float: right;">- from Rouessau's A Discourse on the Origin of Inequality</small>
+				<small style="float: right;">- Rousseau on his hypothetical State of Nature</small>
 
 			</section>
 
 			<section>
-			<h3>The Argument</h3>			
+			<h3>The Naturalistic Fallacy</h3>			
 			<p class="fragment fade-in-then-semi-out">p1. All natural things are good</p>
 			<br>
 			<p class="fragment fade-in-then-semi-out" >p2. This thing here is natural</p>
@@ -206,42 +231,83 @@
 
 			</section>
 
+			<section>
+				<h3><strong>Some</strong> artificial things are bad</h3>
+				trans fat image here
+				<!-- <img class="scaleup" style="filter: invert(80%); width: 80%; height: 100%;" src="img/trans_fat.svg">			 -->
+
+			</section>
+
+			<section data-auto-animate="">
+				<h3>What about purity?</h3>
+				<img src="img\culinary_poisons.jpg">
+			</section>
+
+			<section data-auto-animate="">
+				<h3>What about purity?</h3>
+				<img src="img\punch_1855.gif">
+			</section>
+
+			<section data-auto-animate="">
+				<h3>What about purity?</h3>
+				<img class="scaleup" style="filter: invert(80%); width: 80%; height: 100%;" src="img/melamine.svg">			
+			</section>
 
 			<section>
 				<h3>What's Out of Place</h3>
-				<br>
 				<p class="fragment fade-left">Hair + Soup = 👎</p>
 				<br>
 				<p class="fragment fade-right">Hair + Head = 👍</p>
+				<br>
+				<p class="fragment fade-left">Protein + Whiskey = ❔</p>
+				<br>
+				<p class="fragment fade-right">Guar gum + Plant milk = ❓</p>
 			</section>
 	
 			<section>
-				<h3>The Holistic Turn</h3>
+				<h3>Science & Nature</h3>
 				<blockquote>
 					<small>Many scientists consider "natural" to apply to all things equally.
 					<br>
 					Increasingly, however, some consider it a useful design concept.
-					<br>
-					Consider the case of <strong>biomimetics </strong>for example.
 					</small>
 						<blockquote class="fragment fade-in">
-							<small>In biomimetics nature is used as an inspiration for human-led design</small>
+							<small>In <strong>biomimetics</strong> nature is used as an inspiration for human-led design</small>
 						</blockquote>
 							<blockquote class="fragment fade-in">
 								<small>Infant formula is a biomimetic technology</small>
 							</blockquote>
 				</blockquote>
-				<small>Some scientists have also started to focus on <strong>natural structures...</strong></small>
+
 			</section>
 
 			<section>
-				<h3>Next week <br> Lessons from the Ancients</h3>
+				<h3>Science & Purity</h3>
+				<blockquote>
+					<small>"Purity" often has a specialised meaning in science.
+					<br>
+					</small>
+						<blockquote class="fragment fade-in">
+							<small>Legally, it is a concern because of <strong>adulteration</strong> and <strong>authenticity</strong>.</small>
+						</blockquote>
+							<blockquote class="fragment fade-in">
+								<small>However, it is often falsely connected to ideas like beauty</small>
+							</blockquote>
+				</blockquote>
+			</section>
+
+			<section>
+				<h3>CONCLUSION</h3>
+				<p>Terms like 'natural' and 'pure' are not forbidden words for scientists</p>
+				<br>
+				<p>but you need to think clearly about their meaning and the context of their use</p>
+			</section>
+
+			<section>
+				<h3><strong>Next week</strong> <br> </h3>
 				<p>How a centuries old ontological concept <br>
 				can make you a better food scientist...</p>
-			</section>
 
-			<section>
-				<h3>Contact Me</h3>
 				<a href="mailto:shane.crowley@ucc.ie">shane.crowley@ucc.ie</p>
 				<a href="mailto:shane.crowley@ucc.ie">
 					<img src="img/edibo_icon_wp.png" alt="edibotopic logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="logo">
