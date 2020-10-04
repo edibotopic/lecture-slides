@@ -7,7 +7,7 @@ title: courses
 *Slides posted by **4 pm Wednesday** each week...*
 
 Lecture#0: [Introduction](http://edibotopic.github.io/lecture-slides/FS1005_0.html)
-Lecture#0: [Ontology I](http://edibotopic.github.io/lecture-slides/FS1005_1.html)
+Lecture#1: [Ontology I](http://edibotopic.github.io/lecture-slides/FS1005_1.html)
 ---
 
 ## :factory:Food Process Design & Optimisation 
