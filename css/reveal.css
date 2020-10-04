@@ -2602,6 +2602,15 @@ html.print-pdf .aria-status {
   50% {filter: hue-rotate(180deg); }
 }
 
+.sepia {
+  animation: sepia 10s forwards;
+}
+
+@keyframes sepia {
+  0% {filter: sepia(0%); }
+  100% {filter: sepia(50%); }
+}
+
 .deblur:hover {
   animation: deblur 5s normal forwards 1;
 }

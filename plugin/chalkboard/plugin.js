@@ -55,7 +55,7 @@ const initChalkboard = function(Reveal){
 ******************************************************************/
 	var background, pen, draw, color;
 	var grid = false;
-	var boardmarkerWidth = 1.5;
+	var boardmarkerWidth = 3;
 	var chalkWidth = 3;
 	var chalkEffect = 0.01;
 	var rememberColor = [true, false];
