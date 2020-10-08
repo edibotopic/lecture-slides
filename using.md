@@ -10,7 +10,7 @@ All slides on this page are ***basic versions of full lectures*** found on youtu
 🎮**View video controls**: hover cursor over video. If you still don't see the controls <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">right click</mark> and select 'show controls' in the popup menu. 
 <!-- 🔎**Zoom in**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">alt+leftmousebutton</mark>   -->
 
-👨‍🎨👩‍🎨**Draw on slides**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">C</mark> to toggle pen for drawing or press the blue icon at the bottom left of the screen. The simplest way to capture your drawings is to take a screenshot on your computer, phone or tablet. 
+👨‍🎨👩‍🎨**Draw on slides**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">C</mark> to toggle pen for drawing or press the menu icon at the bottom left of the screen. The simplest way to capture your drawings is to take a screenshot on your computer, phone or tablet. 
 
 🌈**Pen colour**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">X</mark> to cycle through colours and <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">Y</mark> to cycle back. If you want to capture any drawings you make just use the **Print Screen** function on your keyboard with the slide open in full screen and paste it into whatever image editing software you use (e.g., Powerpoint, Paint, Inkscape).
 
