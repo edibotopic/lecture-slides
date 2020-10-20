@@ -63,7 +63,7 @@
 				<p> A link to the <b>video</b> wil be posted shortly. . .</p>
 			</section> -->
 
-			<!-- <section data-background-color="">
+			<section data-background-color="">
 				<p> To view the <b>video</b> just follow the link:</p>
 		
 				<a href="https://youtu.be/30-ATgxCsFE">👉<i>https://youtu.be/30-ATgxCsFE</i></a>
@@ -71,7 +71,7 @@
 				<p>You can also scan the image with your phone ☎️:</p>
 
 				<img title="Scan me with your phone!" src="img/qr_fs1005_2yt.png" alt="if you don't see a QR code click the link" style="height: 340px; margin: 0 auto 4rem auto; background: transparent;" class="qr_code">
-			</section> -->
+			</section>
 
 			<section data-background-image="img/koala.jpg" data-auto-animate>
 				<h2 style="color: white; padding-top: 0%; margin-bottom: 85%">The Omnivore's Dilemma</h2>
@@ -81,8 +81,19 @@
 			<section data-background-image="img/supermarket.jpg" data-auto-animate>
 
 			</section>
-			
 
+			<section>
+				<form action="javascript:alert('Sorry, you lost.')">
+					<input type="checkbox" id="hunger" name="hunger" value="hunger">
+					<label for="hunger" style="color: white;"> Check box to go hungry</label><br>
+					<input type="checkbox" id="poison" name="poison" value="poison">
+					<label for="poison" style="color: white;"> Check box to get poisoned</label><br>
+					<input type="checkbox" id="both" name="both" value="both">
+					<label for="both" style="color: white;"> Check box for a satisfying poison</label><br><br>
+					<input type="submit" value="Submit">
+				  </form>
+			</section>
+			
 				<!-- video of choppin here -->
 			<section data-background-image="img/eye.jpg">
 				<h3 style="color: white; padding-top: 0%; margin-bottom: 85%">The Doctrine of Signatures</h3>
@@ -101,8 +112,27 @@
 				<small class="fragment fade-up">DoS is better understood as a <strong>mnemonic</strong> than a theory</small>
 
 			</section>
-			
-				<!-- video of searing here -->
+
+			<section>
+				<h5>Effect of Bread Fortification on US Pellegra Deaths</h5>
+				<canvas class="stretch" data-chart="bar">
+				,'38, '39, '40, '41, '42, '42, '44, '45, '46, '47, '48, '49, '50, '51, '52, '53, '54
+				Number of Deaths per Year, 3250, 2480, 2250, 1800, 1510, 1500, 1490, 1005, 800, 750, 650, 600, 250, 240, 250, 220, 60, 50
+				</canvas>
+				<small>Adapted from McClements, D.J., Vega, C., McBride, A. E., & Decker, E. A. (2011).
+					 In Defence of Food Science. <i>Gastronomica</i>, Summer, 76-84.   </small>
+			</section>
+
+				<section>
+					<h3>Kinds of Knowledge</h3>
+	
+					<p>Much knowledge of food is <strong>procedural</strong></p>
+	
+					<p class="fragment fade-up">Science generates <strong>declarative</strong> knowledge</p>
+	
+					<p class="fragment fade-up">A feature of this knowledge is its <strong>generalisability</strong></p>
+	
+				</section>
 
 				<section data-auto-animate>
 					<h3>Obstacles to Knowledge</h3>
@@ -119,30 +149,28 @@
 	
 				</section>
 
-			<section>
-				<h3>Kinds of Knowledge</h3>
-
-				<p>Much knowledge of food is <strong>procedural</strong></p>
-
-				<p class="fragment fade-up">Science generates <strong>declarative</strong> knowledge</p>
-
-				<p class="fragment fade-up">A feature of this knowledge is its <strong>generalisability</strong></p>
-
-			</section>
-
 			<section data-auto-animate>
-				<h3>Generalisable Knowledge</h3>
+				<h3>Maillard Browning (MB)</h3>
 				<img src="img/Maillard.jpg" height="400px">
 				<img src="img/maillard_bread.jpg" height="400px">
 			</section>
 
 			<section data-auto-animate>
-				<h3>Generalisable Knowledge</h3>
+				<h3>Maillard Browning (MB)</h3>
 				<img src="img/Maillard.jpg" height="400px">
 				<img src="img/maillard_health.png" height="400px">
 			</section>
 
-				<!-- video of potatos here -->
+			<section>
+				<h3>Searing and Sous Vide</h3>
+				<ul>
+					<li>MB is more advanced at high T values</li>
+					<li>MB occurs in sous vide but is less advanced </li>
+					<li>Sous vide and searing are often combined</li>
+					<li>Adding glucose or alkali may speed up reaction</li>
+
+				</ul>
+			</section>
 
 			<section>
 				<h3>Traditional Know-how</h3>
@@ -162,6 +190,10 @@
 					<i>Journal of Culinary Science & Technology</i>.
 				</small>
 			</section>	
+
+			<section data-background-image="img/boneOrmoon.png">
+
+			</section>
 
 			<section>
 				<h3>Scientific Know-why</h3>
@@ -187,7 +219,6 @@
 					</a>
 				</section>
 
-
 		</div>
 	</div>
 
@@ -199,7 +230,7 @@
 			Reveal.initialize({
 				// for gh set controls to true and toggle chalkboard.js to true also
 				controls: false,
-				progress: true,
+				progress: false,
 				history: true,
 				center: true,
 				slideNumber: 'c',
@@ -265,12 +296,12 @@
 						title: 'Links',
 						icon: '<i class="fa fa-external-link">',
 						content:
-						'<h1>Interesting Links</h2> <a href="https://plato.stanford.edu/entries/aristotle-causality/"> Introductory (but detailed) article on Aristotle\'s four causes</a> <br><br> <a href="https://www.youtube.com/watch?v=yjXOmwXENjc&ab_channel=AcademyofIdeas">Short video on the four causes and its relation to science and nature <br><br> <a href="https://www.thoughtco.com/form-follows-function-177237">Brief article on the origin of \'Form follows Function\'</a>'
+						'<h1>Interesting Links</h2>'
 					},
 					{
 						title: 'About',
 						icon: '<i class="fa fa-info">',
-						content: '<p>A good food scientist knows that food is more than the "stuff" it is made from. To truly understand the scope of food science as a field we need to appreciate the emphasis it places on structure, processes and functions in addition to materials. This four-fold way of understanding an object of study bears quite a similarity to an ancient metaphysical doctrine of Aristotle. Practitioners of industrial design have long argued over which of the four is most critical but most agree that all need to be considered for a design to be successful. Food scientists do not just do pure science; most, in fact spend their days designing technologies. Your work as a food scientist can thus benefit from considering aspects of food like structure, in the same way as someone designing a car, dress or table needs to consider structure.</p>'
+						content: '<p></p>'
 
 					}
 					]
