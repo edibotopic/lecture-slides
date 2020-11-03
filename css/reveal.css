@@ -2674,32 +2674,9 @@ html.print-pdf .aria-status {
 
 /* 
 font awesome gear animation */
-
-.animation-wrapper{
-  height:200px; 
-  width:700px; 
-  padding:20px; 
-  margin:10px auto;
-  background-color:#dfe7eb; 
-  /* fill-opacity: 90%; */
-  color:#84667f;
-  font-family: 'Roboto', sans-serif;
-  text-align:center;
-  text-transform:uppercase;
-  /* font-weight:50; */
-}
   
-  .fa-animation{
-    height:70px; 
-    width:70px; 
-    margin:0 auto;
-    position:relative;
-  }
-  
-  .fa-animation .fa{position:absolute;}
-  
-  .fa-lg{font-size:45px; top:8px; left:0px;}
-  .fa-md{font-size:30px; top:0px; left:40px;}
+  .fa-lg{font-size:450px; top:8px; left:0px;}
+  .fa-md{font-size:200px; top:0px; left:500px;}
   .fa-sm{font-size:24px; top:30px; left:35px;}
 
 /* **************************************** */
