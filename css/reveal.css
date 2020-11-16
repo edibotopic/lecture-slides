@@ -2706,5 +2706,22 @@ font awesome gear animation */
   .fa-md{font-size:200px; top:0px; left:500px;}
   .fa-sm{font-size:24px; top:30px; left:35px;}
 
+/* crop saussure sign */
+
+  .sauss_crop {
+    position: absolute;
+    clip-path: inset(12% 8% 55% 33%);
+    transition: clip-path 8s;
+    animation-iteration-count: 0;
+    animation-timing-function: ease-in-out;
+    width: 1000px;
+    height: 1000px;
+    margin: 0%;
+  }
+
+ .sauss_crop:hover {
+    clip-path: inset(2% 8% 5% 3%);
+  }
+
 /* **************************************** */
 /* TEXT EFFECTS */

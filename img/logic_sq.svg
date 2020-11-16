@@ -1,0 +1,20 @@
+<svg width="205.31mm" height="165.32mm" version="1.1" viewBox="0 0 205.31 165.32" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-5.7264 -65.097)">
+  <g fill="#ffff00" font-family="sans-serif" font-size="10.583px">
+   <text transform="translate(-2.6727 -7.9912)" style="line-height:1.25;shape-inside:url(#rect2117);white-space:pre" xml:space="preserve"><tspan x="10.15625" y="83.129365"><tspan fill="#ffff00">Black </tspan></tspan></text>
+   <text transform="translate(158.76 -7.4567)" style="line-height:1.25;shape-inside:url(#rect2125);white-space:pre" xml:space="preserve"><tspan x="10.15625" y="83.129365"><tspan fill="#ffff00">White </tspan></tspan></text>
+   <text transform="translate(-2.1382 129.86)" style="line-height:1.25;shape-inside:url(#rect2135);white-space:pre" xml:space="preserve"><tspan x="10.15625" y="83.129365"><tspan fill="#ffff00">Grey </tspan></tspan></text>
+   <text transform="translate(163.03 129.86)" style="line-height:1.25;shape-inside:url(#rect2137);white-space:pre" xml:space="preserve"><tspan x="10.15625" y="83.129365"><tspan fill="#ffff00">Beige </tspan></tspan></text>
+  </g>
+  <g id="equiv" fill="#00f" stroke="#0ff" stroke-dasharray="1.665, 3.33000000000000007" stroke-width="1.665">
+   <path d="m16.603 194.04 1e-6 -95.148h-1e-6"/>
+   <path d="m194.01 194.04v-95.148"/>
+  </g>
+  <g id="cross" fill="none" stroke="#c60000" stroke-linecap="round">
+   <path d="m17.194 99.416 176.07 94.034" stroke-width="2.772"/>
+   <path d="m193.16 99.399-176.1 94.331" stroke-width="2.7843"/>
+  </g>
+  <path d="m15.715 194.04h179.13" fill="none" stroke="#fff" stroke-width="2.4164"/>
+  <path d="m15.809 98.89h179.05" fill="none" stroke="#fff" stroke-width="2.4159"/>
+ </g>
+</svg>
