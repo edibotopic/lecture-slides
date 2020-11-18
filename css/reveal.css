@@ -2572,18 +2572,9 @@ html.print-pdf .aria-status {
   fill: none;
   stroke: #7d2d68;
   stroke-width: 0.4px;
-
-/* Stroke-dasharray property */
-/* 
-  stroke-dasharray: 50; 
-  stroke-dashoffset: 50;  */
-/*     stroke-dashoffset: 500px; */
-/*     stroke-dasharray: 1353px;
-  stroke-dashoffset: 1353px; */
-/*    animation: move 2s linear infinite;      */
- animation: move 12s ease-in-out alternate infinite; 
- animation-fill-mode: forwards;
- animation-delay: 3sj;
+  animation: move 12s ease-in-out alternate infinite; 
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
 }
 
 @keyframes move {
