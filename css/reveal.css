@@ -2568,7 +2568,7 @@ html.print-pdf .aria-status {
 }
 
 /* animated taxonomy */
-.taxon {
+.draw {
   fill: none;
   stroke: #7d2d68;
   stroke-width: 0.4px;
