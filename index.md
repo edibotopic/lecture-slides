@@ -20,7 +20,7 @@ Lecture#5: [Epistemology III](http://edibotopic.github.io/lecture-slides/FS1005_
 
 Lecture#6: [Semiotics I](http://edibotopic.github.io/lecture-slides/FS1005_6.html)
 
-Lecture#7 (draft): [Semiotics II](http://edibotopic.github.io/lecture-slides/FS1005_7.html)
+Lecture#7: [Semiotics II](http://edibotopic.github.io/lecture-slides/FS1005_7.html)
 
 ---
 
