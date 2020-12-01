@@ -2658,6 +2658,25 @@ html.print-pdf .aria-status {
 .slideshow img:nth-child(3) { animation-delay: 18s; }
 .slideshow img:nth-child(4) { animation-delay: 24s; }
 
+.slideshow5 img { 
+  opacity:0; 
+  animation-name: fade; 
+  /* animation-play-state: paused; */
+  animation-duration: 48s; 
+  animation-iteration-count: infinite; 
+  position:absolute; 
+  width: 60%;
+  height: 100%;
+  left:20%;  
+  top: 20%;
+}
+
+.slideshow5 img:nth-child(1) { animation-delay: 6s; }
+.slideshow5 img:nth-child(2) { animation-delay: 12s; }
+.slideshow5 img:nth-child(3) { animation-delay: 18s; }
+.slideshow5 img:nth-child(4) { animation-delay: 24s; }
+.slideshow5 img:nth-child(5) { animation-delay: 30s; }
+
 /* stepper illusion */
 .ct {
   max-width: 675px;
