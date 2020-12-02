@@ -22,7 +22,7 @@ Lecture#6: [Semiotics I](http://edibotopic.github.io/lecture-slides/FS1005_6.htm
 
 Lecture#7: [Semiotics II](http://edibotopic.github.io/lecture-slides/FS1005_7.html)
 
-Lecture#8: [Rhetoric](http://edibotopic.github.io/lecture-slides/FS1005_8.html)
+<!-- Lecture#8: [Rhetoric](http://edibotopic.github.io/lecture-slides/FS1005_8.html) -->
 
 ---
 
