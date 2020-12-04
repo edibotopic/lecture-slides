@@ -24,6 +24,10 @@ Lecture#7: [Semiotics II](http://edibotopic.github.io/lecture-slides/FS1005_7.ht
 
 Lecture#8: [Rhetoric](http://edibotopic.github.io/lecture-slides/FS1005_8.html)
 
+Revision: [S1 Exam](http://edibotopic.github.io/lecture-slides/FS1005_9.html)
+
+Feedback: [S1 Content](http://edibotopic.github.io/lecture-slides/FS1005_10.html)
+
 ---
 
 ## :factory:Food Process Design & Optimisation 
