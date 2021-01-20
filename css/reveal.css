@@ -2541,7 +2541,7 @@ html.print-pdf .aria-status {
 
 /* scale object from 0 */
 
-.scaleup {
+.scaleup:hover {
   animation: scale 8s linear forwards;
 }
 
@@ -2569,15 +2569,13 @@ html.print-pdf .aria-status {
 
 /* animated taxonomy */
 .draw {
-  fill: none;
-  stroke: #7d2d68;
-  stroke-width: 0.4px;
-  animation: move 12s ease-in-out alternate infinite; 
-  animation-fill-mode: forwards;
-  animation-delay: 3s;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s ease-in-out alternate infinite;
+  animation-delay: 1s;
 }
 
-@keyframes move {
+@keyframes dash {
   100% {
       stroke-dashoffset: 0;
   }

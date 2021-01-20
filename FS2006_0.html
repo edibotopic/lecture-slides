@@ -43,7 +43,7 @@
 		<div class="slides">
 			<section>
 				<section>
-				<h2>FS2006:<br>Food Process Design & Optimisation (ROUGH DRAFT)</h1>
+				<h2>FS2006:<br>Food Process Design & Optimisation</h1>
 				<h3><i>Dr Shane V Crowley</i></h3>
 				<p><small>Press <b>down</b> for controls and <b>right</b> to progress</small></p>	
 	
@@ -153,10 +153,10 @@
 			<h3>From Artisinal to Industrial</h3>
 <br>
 			<ul>
-				<li>Artisan design dominated for most of history</li>
-				<li>Depended on tacit knowledge of a master</li>
-				<li>Taylor: shift from craft- to mass-production</li>
-				<li>Ford: mass-production to mass-consumption</li>
+				<li>Artisans dominated for a long period 🎨</li>
+				<li>Depended on tacit knowledge of a master 👨‍🍳</li>
+				<li>Taylor: shift from craft- to mass-production 🚙</li>
+				<li>Ford: shift to mass-consumption ⏲️</li>
 			</ul>
 <br><br>
 			<small style="color: violet;">Break process into sub-processes,
@@ -197,7 +197,7 @@
 			<h2>A general principle</h2>
 			<br>
 			<div class="math">
-				<p style="color: white;">$$\color{yellow}{E} = \frac{\color{violet}{UO}}{\color{aqua}{TI}}$$</p>	
+				<p class="throb" style="color: white;">$$\color{yellow}{E} = \frac{\color{violet}{UO}}{\color{aqua}{TI}}$$</p>	
 			</div>
 			<br>
 			<small st class="fragment fade-left">Like most important principles this is most clearly depicted with maths</small>
@@ -205,7 +205,6 @@
 
 		<section>
 			<h2>What is process intelligence?</h2>
-
 			<!-- TODO the sights and sounds of a factory - still from video maybe here with drawing-->
 			<img>
 		</section>
@@ -229,8 +228,8 @@
 			<h3 style="color: yellow;">Design Considerations: Interactions</h3>
 			<br>
 			<div class="math">
-				<p style="color: violet;">$$(2+3)+1 = 3+(2+1)$$</p>	
-<br>
+				<p style="color: violet;">$$(2+3)+1 = 2+(3+1)$$</p>	
+				<br>
 				<p style="color: aqua;">$$(egg+sugar)+milk = egg+(sugar+milk) \ ???$$</p>	
 			</div>
 			<br>
@@ -238,40 +237,100 @@
 		</section>
 
 		<section>
-			<h2>Design considerations: flows</h2>
+<h3>In Processing Order Matters</h3>
+<br>
+			<svg  width="64.248mm" height="82.395mm" version="1.1" viewBox="0 0 64.248 82.395" xmlns="http://www.w3.org/2000/svg">
+				<g class="draw" transform="translate(-71.063 -71.063)" fill="none" stroke="violet" stroke-width="1.0583">
+				 <path d="m103.19 103.19 31.75-31.75m-31.75 82.021v-50.271l-31.75-31.75"/>
+				 <path id="branch_L" d="m84.667 84.667 10.583-13.229"/>
+				</g>
+			   </svg>
+
+			   <svg  width="64.248mm" height="82.395mm" version="1.1" viewBox="0 0 64.248 82.395" xmlns="http://www.w3.org/2000/svg">
+				<g id="right_tree" class="draw" transform="translate(-71.063 -71.063)" fill="none" stroke="yellow" stroke-width="1.0583">
+				 <path d="m103.19 103.19 31.75-31.75m-31.75 82.021v-50.271l-31.75-31.75"/>
+				 <path id="branch_R" d="m121.71 84.667-10.583-13.229"/>
+				</g>	
+			 </svg>
+
+			<script src="/scripts/drawsvg.js"></script> 
+		</section>
+
+		<section data-background-image="img/pipe_mare.png" data-auto-animate>
+			<div data-id="box" style="margin: auto; padding: 1px; border-radius: 50%; height: 1px; width: 1px; background: black;"></div>
+
+		</section>
+
+		<section data-background-image="img/pipe_mare.png" data-auto-animate>
+
+			<div data-id="box" style="margin: auto; padding: 50px; height: 130px; width: 160px; background: black; border: yellow; border-width: 2px; border-style: solid;">
+			<p style="font-size: 80px;">?</p>
+			</div>
+		
+		</section>
+
+		<section data-background-image="img/pipe_mare.png" data-auto-animate>
+			<div data-id="box" style="margin: auto; padding: 1px; border-radius: 50%; height: 1px; width: 1px; background: black;"></div>
+		</section>
+
+
+		<section>
+			<h3>Solving inverse problems</h3>
+
+			<br>
+			<div class="math">
+				<p class="fragment fade-right" style="color: violet;">Forward: $$cause \rightarrow effect$$</p>	
+<br>
+				<p class="fragment fade-left" style="color: yellow;">Inverse: $$effect \rightarrow cause$$</p>	
+			</div>
+			<br>
+
+
+		</section>
+
+		<section data-markdown data-separator="\n---\n$">
+			<script type="text/template">
+					|Forward  |Inverse    		 |
+					|:--------:|:------------:|
+					|Using recipes   	  |Inventing recipes  |
+					|Diagnosis |Prognosis|
+					|Creating faults| Fixing faults|
+					|Applying theory|Developing theory|
+					|Identifying goals| Attaining goals|
+					|Doing calculations  	  |Deriving equations  	  |
+					|Initiating/testing|Designing/optimising|
+
+					<sub style="color:yellow"><sub><sub>Inverse problems are often more interesting and challenging <sub><sub><sub>
+			</script>
 		</section>
 
 		<section>
-			<h2>Design considerations: tradeoffs</h2>
+			<h3>Goals of this module</h3>
+
+			<ul>
+				<li class="fragment fade-in">Provide you with general <strong>tools and ideas</strong></li>
+				<li class="fragment fade-in">Give you <strong>real examples</strong> of food processes</li>
+				<li class="fragment fade-in">Develop your "feel" for <strong>maths and physics</strong></li>
+				<li class="fragment fade-in">Prepare you better for specific <strong>industry roles</strong></li>
+			</ul>
+
 		</section>
 
 		<section>
-			<h2>Solving the inverse problem</h2>
+			<h3>Boring stuff</h3>
+			<ul>
+				<li><strong>Practicals:</strong> 6 virtual labs (reports worth 15%)</li>
+				<li><strong>Lectures:</strong> compact, virtual (Q&As on request)</li>
+				<li><strong>Exams:</strong> 1 "in-class" test (15%), 1 formal (70%)</li>
+				<li><strong>Notes:</strong> extra detail provided for specific topics</li>
+			</ul>
+			<br><br>
+				<small style="color: yellow;">Read the syllabus for the specifics - don't "what's a syllabus?" me in three months😄</small>
+
 		</section>
 
-		<section>
-			<h2>Goals of this module</h2>
-
-		</section>
-
-		<section>
-			<h2>Boring stuff</h2>
-
-		</section>
-
-			<!-- <section>
-				<h5>Effect of Bread Fortification on US Pellegra Deaths</h5>
-				<canvas class="stretch" data-chart="bar">
-				,'38, '39, '40, '41, '42, '42, '44, '45, '46, '47, '48, '49, '50, '51, '52, '53, '54
-				Number of Deaths per Year, 3250, 2480, 2250, 1800, 1510, 1500, 1490, 1005, 800, 750, 650, 600, 250, 240, 250, 220, 60, 50
-				</canvas>
-				<small>Adapted from McClements, D.J., Vega, C., McBride, A. E., & Decker, E. A. (2011).
-					 In Defence of Food Science. <i>Gastronomica</i>, Summer, 76-84.   </small>
-			</section> -->
-
-			</section>	
 				<section>
-					<h3><strong>Next week</strong> <br> </h3>
+					<h3><strong>Next lecture</strong> <br> </h3>
 					<p><i>Basic engineering principles</i></p>
 
 					<a href="mailto:shane.crowley@ucc.ie">shane.crowley@ucc.ie</p>
