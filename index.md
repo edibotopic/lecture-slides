@@ -30,6 +30,8 @@ Revision for [S1 Exam](http://edibotopic.github.io/lecture-slides/FS1005_9.html)
 
 Feedback on [S1 Content](http://edibotopic.github.io/lecture-slides/FS1005_10.html)
 
+Lecture#10: [(Re)Introduction](http://edibotopic.github.io/lecture-slides/FS1005_12.html)
+
 ---
 
 ## :factory:Food Process Design & Optimisation 
