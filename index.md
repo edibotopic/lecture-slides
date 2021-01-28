@@ -39,7 +39,7 @@ Lecture#10: [(Re)Introduction](http://edibotopic.github.io/lecture-slides/FS1005
 
 Lecture#0: [Introduction](http://edibotopic.github.io/lecture-slides/FS2006_0.html)
 
-Lecture#1: [Food Physics I (draft)](http://edibotopic.github.io/lecture-slides/FS2006_1.html)
+Lecture#1: [Food Physics I](http://edibotopic.github.io/lecture-slides/FS2006_1.html)
 
 ---
 
