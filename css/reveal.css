@@ -2600,8 +2600,15 @@ html.print-pdf .aria-status {
   100% {filter: sepia(50%); }
 }
 
+.deblur{
+  animation: deblur 5s normal 1;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+}
 .deblur:hover {
-  animation: deblur 5s normal forwards 1;
+  animation-play-state: running;
+  
+
 }
 
 @keyframes deblur {
