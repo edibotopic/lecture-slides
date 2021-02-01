@@ -41,6 +41,8 @@ Lecture#0: [Introduction](http://edibotopic.github.io/lecture-slides/FS2006_0.ht
 
 Lecture#1: [Food Physics I](http://edibotopic.github.io/lecture-slides/FS2006_1.html)
 
+Lecture#2: [Food Physics II(DRAFT)](http://edibotopic.github.io/lecture-slides/FS2006_2.html)
+
 ---
 
 ## :microscope:Food Analysis & Processing 
