@@ -32,6 +32,8 @@ Feedback on [S1 Content](http://edibotopic.github.io/lecture-slides/FS1005_10.ht
 
 Lecture#10: [(Re)Introduction](http://edibotopic.github.io/lecture-slides/FS1005_12.html)
 
+Lecture#11: [Protein Story](http://edibotopic.github.io/lecture-slides/FS1005_13.html)
+
 ---
 
 ## :factory:Food Process Design & Optimisation 
