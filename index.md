@@ -1,4 +1,4 @@
----
+ii---
 layout: page
 title: courses
 ---
@@ -44,6 +44,8 @@ Lecture#0: [Introduction](http://edibotopic.github.io/lecture-slides/FS2006_0.ht
 Lecture#1: [Food Physics I](http://edibotopic.github.io/lecture-slides/FS2006_1.html)
 
 Lecture#2: [Food Physics II](http://edibotopic.github.io/lecture-slides/FS2006_2.html)
+
+Lecture#3: [Engineering Principles I](http://edibotopic.github.io/lecture-slides/FS2006_3.html)
 
 ---
 
