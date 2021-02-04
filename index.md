@@ -24,7 +24,7 @@ Lecture#7: [Semiotics II](http://edibotopic.github.io/lecture-slides/FS1005_7.ht
 
 Lecture#8: [Rhetoric](http://edibotopic.github.io/lecture-slides/FS1005_8.html)
 
-Lecture#9: [Molecules and Structure I](http://edibotopic.github.io/lecture-slides/FS1005_11.html)
+Lecture#9: [Molecules and Structure I: Dispersions](http://edibotopic.github.io/lecture-slides/FS1005_11.html)
 
 Revision for [S1 Exam](http://edibotopic.github.io/lecture-slides/FS1005_9.html)
 
@@ -32,7 +32,7 @@ Feedback on [S1 Content](http://edibotopic.github.io/lecture-slides/FS1005_10.ht
 
 Lecture#10: [(Re)Introduction](http://edibotopic.github.io/lecture-slides/FS1005_12.html)
 
-Lecture#11: [Protein Story](http://edibotopic.github.io/lecture-slides/FS1005_13.html)
+Lecture#11: [Molecules and Structure II: Protein Story](http://edibotopic.github.io/lecture-slides/FS1005_13.html)
 
 ---
 
