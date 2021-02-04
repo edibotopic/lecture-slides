@@ -3,17 +3,33 @@ layout: page
 title: using the slides
 ---
 
-All slides on this page are ***basic versions of full lectures*** found on youtube. They have been optimised for web and mobile use, which typically involves compressing videos into low-res formats. ***Longer videos may be replaced*** by links or images to prevent slowdown of the site. If you want the ***audio and drawings*** that accompany the lectures you must go to the relevant youtube video - you will find clickable and scannable links in the slides. Navigating the slides is easy, you just move forwards and backwards with horizontal arrow keys (computer) or by swiping (phone/tablet). Slides can also be navigated vertically but I rarely use this function. I have mostly tested the slides on Chrome and Firefox; if you use a less common browser (Internet Explorer, Safari, Edge, etc.) and encounter issues please let me know so I can try to fix them. See additional instructions below:  
-  
-📺**Full screen** (recommended): press the <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">F</mark> key.  
+This site is a barebones way of getting my lectures to students in an accessible way. All slides on this page are ***basic versions of full lectures*** found on youtube. The videos are ***more content rich*** than the slides by design - but you will occasionally find ***clickable and scannable links*** in the slides. Navigating the slides is easy, you just move forwards and backwards with horizontal arrow keys (computer) or by swiping (phone/tablet). Slides can also be navigated vertically also but I rarely use this function. I have mostly tested the slides on Chrome and Firefox; if you use a less common browser (Internet Explorer, Safari, Edge, etc.) and encounter issues please let me know so I can try to fix them. See additional instructions below:  
 
-🎮**View video controls**: hover cursor over video. If you still don't see the controls <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">right click</mark> and select 'show controls' in the popup menu. 
+Test kbd tag: <kbd>a</kbd>
+  
+📺 **Full screen** (recommended): press the <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">F11</mark> key.  
+
+🎮 **View video controls**: hover cursor over video. If you still don't see the controls <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">right click</mark> and select 'show controls' in the popup menu. 
 <!-- 🔎**Zoom in**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">alt+leftmousebutton</mark>   -->
 
-👨‍🎨👩‍🎨**Draw on slides**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">C</mark> to toggle pen for drawing or press the menu icon at the bottom left of the screen. The simplest way to capture your drawings is to take a screenshot on your computer, phone or tablet. 
+👨‍🎨👩‍🎨 **Draw on slides**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">C</mark> to toggle pen for drawing or press the menu icon at the bottom left of the screen. The simplest way to capture your drawings is to take a screenshot on your computer, phone or tablet. 
 
-🌈**Pen colour**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">X</mark> to cycle through colours and <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">Y</mark> to cycle back. If you want to capture any drawings you make just use the **Print Screen** function on your keyboard with the slide open in full screen and paste it into whatever image editing software you use (e.g., Powerpoint, Paint, Inkscape).
+🌈 **Pen colour**: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">X</mark> to cycle through colours and <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">Y</mark> to cycle back. If you want to capture any drawings you make just use the **Print Screen** function on your keyboard with the slide open in full screen and paste it into whatever image editing software you use (e.g., Powerpoint, Paint, Inkscape).
 
-:printer: **Printing**: these slides were not designed for printing but if you insist you can <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">right click</mark> and select 'print' or 'save as pdf' as needed, which will render the slides as ***plain html***. If you want a printout that is formatted like the slides you will need to change a few characters at the end of the url; for example, changing https://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html#/1 to https://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html?print-pdf will render a pdf that looks more or less the same as the slides.
+:printer: **Printing**: these slides were not designed for printing but I typically include a link to a printable pdf in the first few slides.
 
-:phone: **Mobile**: the slides should work well on your phone or tablet, although there may be a little less functionality (e.g., you can draw but not change pen colour). If any images or videos don't show well try to switch your device between portrait and landcape view. I have tested this on android and it worked well. 
+:phone: **Mobile**: the slides should work well on your phone or tablet, although there may be a little less functionality (e.g., you can draw but not change pen colour). If any images or videos don't show well try to switch your device between portrait and landscape view. I have tested this on android and it worked well.
+
+🚩 **Improvements Needed**: 
+
+1. This site is *poorly optimised*, largely because I was figuring out how to get it up and running in my (limited) spare time. The main issue at the moment is that I have a tonne of high-resolution images and videos in the slides. These need to be compressed to a smaller size but I likely won't get to that for a while (or until I am forced to). In the meantime, if there is any issues with the display of images please let me know.
+
+2. The front page should be *redesigned with drop-down menus* to group lectures thematically rather than having them in a long list. The only reason I haven't changed the code to do this is that I am afraid it will introduce some bugs that will disrupt the students visiting the site, who have enough to deal with right now.
+
+3. The *theme is a bit generic* and could be modernised a bit. Much of my aesthetic energy has gone into designing [my personal website](https://edibotopic.com/) and I hope in the future to integrate the two sites a little better.
+
+4. There is some general *web design bad practice* throughout. For example, many of the images do not have tooltips that reveal on hover, and some are also lacking alternate messages if they don't show for a user. These are accessibility issues that need to be fixed.
+
+5. I was hoping to use *interactive 3D* in more places with Babylon.js; however, I ran into an issue the one time I used it where moving the camera in a 3D scene also moved the lecture to next slide (as both the Babylon.js viewer and the Reveal.js are affected by swiping). There's probably an easy fix to this but that will have to wait.
+
+*Shane*

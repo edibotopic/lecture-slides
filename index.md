@@ -1,10 +1,10 @@
-ii---
+---
 layout: page
 title: courses
 ---
 ---
 ## :green_salad:Food Technology, Culture & Ethics 
-*Slides posted by **4 pm Tuesday** each week...*
+*Module **FS1005**: Slides posted by **4 pm Tuesday** each week...*
 
 Lecture#0: [Introduction](http://edibotopic.github.io/lecture-slides/FS1005_0.html)
 
@@ -37,7 +37,7 @@ Lecture#11: [Protein Story](http://edibotopic.github.io/lecture-slides/FS1005_13
 ---
 
 ## :factory:Food Process Design & Optimisation 
-*Slides uploaded **twice weekly** according to your timetable*
+*Module **FS2006**: Slides uploaded **twice weekly** according to your timetable*
 
 Lecture#0: [Introduction](http://edibotopic.github.io/lecture-slides/FS2006_0.html)
 
@@ -50,7 +50,7 @@ Lecture#3: [Engineering Principles I](http://edibotopic.github.io/lecture-slides
 ---
 
 ## :microscope:Food Analysis & Processing 
-*Lecture, practical demo and 3D visualisation on fractionating proteins from milk using **isoelectric precipitation** and **membrane filtration**:*
+*Module **FS3020**: Lecture, practical demo and 3D visualisation on fractionating proteins from milk:*
 
 Slides: [Protein Fractionation](http://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html)
 
