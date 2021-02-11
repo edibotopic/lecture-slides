@@ -52,10 +52,20 @@
 <section data-background-video="vids/scale.mp4">
 </section>
 
-<section data-auto-animate>
+<section>
 <h3>Different Scales</h3>
 <br>
-<ul>
+
+<div class="container">
+    <img class="throb" src="img/flask_simple.png">
+<ul class="text-block-center"
+style="
+top:50%;
+left:50%;
+width: 500px;
+transform: translate(-50%, -50%);
+background-color:  rgba(14, 214, 221, 0)">
+
     <li class="fragment grow">Lab (<strong>$1mL \rightarrow 1000 mL$</strong>)</li>
     <br>
     <li class="fragment grow">Pilot (<strong>$1L \rightarrow 10 L$</strong>)</li>
@@ -63,33 +73,46 @@
     <li class="fragment grow">Factory (<strong>$1000L +$</strong>)</li>
 </ul>
 
+</div>
+</section>
+
+<section data-background-color="white">
+    <iframe class="fragment fade-right" alt="media not supported by your browser"  title="Scaling up vaccines" src="https://www.chemistryworld.com/news/scrambling-and-gambling-to-scale-up-covid-19-medicines/4012085.article#/" width="440" height="470" frameBorder="0" class="embed">
+    </iframe>
+    <iframe class="fragment fade-left"  alt="media not supported by your browser"  title="Scaling up vaccines" src="tex/nature_covid.pdf" width="440" height="470" frameBorder="0" class="embed">
+    </iframe>
+
+</section>
+
 <!-- add image of different scales -->
 </section>
 
 <section>
-<h3>Scaling Up is Difficult: responses</h3>
+<h3>Responses to the Challenge</h3>
 <br>
 <ul>
-    <li>
-        Mystical: "things are just different in the lab"
+    <li class="fragment fade-in-then-semi-out">
+        <strong>Mystical: </strong>"things are just different in the lab"
     </li>
     <br>
-    <li>
-        Heuristics: "it's fine if we use this one tank"
+    <li  class="fragment fade-in-then-semi-out">
+        <strong>Heuristics:</strong> "it's fine if we use this one tank"
     </li>
     <br>
-    <li>
-        Optimiser: "just focus on what we're good at"
+    <li  class="fragment fade-in-then-semi-out">
+        <strong>Optimiser:</strong> "just focus on what we're good at"
     </li>
 </ul>
+<br><br>
+<small class="fragment fade-up"><strong style="color: orange;">Often not enough to think of chemistry (pH, temperature, concentration)</strong></small>
 </section>
 
-<section data-background-video="vids/local_global.mp4"></section>
+<section class="hue" data-background-video="vids/local_global.mp4"></section>
 
 <section>
 <h3 style="color: white;">Premature Optimisation</h3>
 <br>
-<p class="shake">$\color{orange}\diamond \ (\color{aqua}{local_{MAX}} < \ \color{violet}{global_{MIN}})$</p> 
+<p class="shake">$\color{orange}\diamond \ (\color{aqua}{local_{MAX}} < \ \color{violet}{global_{MAX}})$</p> 
 
 <!-- add image of peaks and troughs -->
 <br><br>
@@ -97,7 +120,7 @@
 </section>
 
 <section>
-<h3>Consider these. . .</h3>
+<h3>Consider these facts. . .</h3>
 
 <img class="hue" style="float: right; width: 25%;" src="img/monk_bar.png"> 
 
@@ -105,7 +128,7 @@
     <li>Giants don't exist</li>
     <li>Kids are pretty strong</li>
     <li>Elephants have large ears</li>
-    <li>Industrial scale up is hard</li>
+    <li>Industrial scale-up is hard</li>
 </ul>
 </section>
 
@@ -115,9 +138,12 @@
 
 <section>
     <img src="img/gal_book.png" style="float: left; width: 50%; height: 50%;">
-        <p>Galileo discovered <strong>scaling laws</strong>. Take two cubes,
-        one where each side has a length of $1 \ m$ and another where the length
-    is $2 \ m$. With this doubling of length how does the volume change?</p>
+        <p>Take two cubes,
+        one where each side has a <spread style="color: orange">length of $1 \ m$ </spread>and another where <br>
+        the <spread style="color: orange">length is $2 \ m$</spread>. 
+    <br>
+    <br>
+    <strong>With this doubling of length how does the volume change?</strong></p>
 </section>
 
 <section>
@@ -143,16 +169,16 @@ $\color{orange}{strength \propto cross-section; \ weight \propto \ volume}$
     <blockquote style="background: rgba(34, 34, 83, 0.65)"><p>
         <strong>
         For a material with constant density, an increase in size $[L]$
-        corresponds to an increase in weight $[L^3]$
+        corresponds to an increase in effective mass $[L^3]$
         that is the cube of that increase, but
         only a squared increase in area $[L^2]$. 
     </strong>
     </p></blockquote>
 </section>
 
-<section>
+<section data-background-image="https://media.giphy.com/media/ZCNhFJnP23twCGOzDg/giphy.gif">
 <h3>Some Consequences</h3>
-<ul>
+<ul style="color: orange; background-color: rgba(170, 174, 238, 0.336);">
     <li>
         Larger vessels needs structural reinforcement
     </li>
@@ -160,13 +186,13 @@ $\color{orange}{strength \propto cross-section; \ weight \propto \ volume}$
         Larger vessels are more difficult to heat/cool
     </li>
     <li>
-        Larger vessels holds heat more efficiently
+        Larger vessels hold heat more efficiently
     </li>
 </ul>
 
 <br><br>
 
-<small><strong>If it works, scale up is often worth the investment</strong></small>
+<small><strong><i>IFFFFF</i> it works, scale up is generally worth the investment</strong></small>
 </section>
 
 <section>
@@ -188,17 +214,17 @@ $\color{orange}{strength \propto cross-section; \ weight \propto \ volume}$
     </li>
 </ul>
 <br><br>
-<small> Two systems have <strong>similtude</strong> if they share these similarities</small>
+<small style="color: orange;"> Two systems have <strong>similtude</strong> if they share these similarities</small>
 </section>
 
 <section>
 <h3>Example: your new process</Em></h3>
 
     <blockquote><strong>
-        You have made a valuable new ingredient in the lab. An engineer asks you
-        how the new plant reactor should be designed based on your work. He
+        You have made an exciting new ingredient in the lab. An engineer asks you
+        how the new plant reactor should be designed based on your work. She
         specifically asks for information regarding vessel size and agitation
-        rates
+        rates. 
     </strong>
 
    
@@ -217,23 +243,18 @@ $\color{orange}{strength \propto cross-section; \ weight \propto \ volume}$
     
             <ul>
             <li>
-                ratio of vessel diameter to height
+                ratio of diameter to height
     
             </li>
             
             <li>
-                the regime of turbulence
+                tip velocity of mixer
     
             </li>
             <li>
-                the tip velocity of the mixer
+                relevant dimensionless numbers
         </li>	
             </ul>
-            <li>
-                ... and (potentially) balances of frictional forces
-        </li>	
-            
-        </li>
     </ul>
     
     <br><br>
@@ -241,11 +262,24 @@ $\color{orange}{strength \propto cross-section; \ weight \propto \ volume}$
     <small>$\color{orange}{Re = \frac{N \cdot D^2 \cdot \rho}{\mu}}$ and $\color{orange}{v = \pi \cdot D \cdot N}$ </small>
     </section>
 
-<section>
-<h3>That's it for now</h3>
+<section class="gray" data-background-image="img/scale_tanks.png">
 
-<p>We will return to more specific scaling
-    problems when we look at processes like mixing</p>
+<blockquote class="fragment fade-in-then-out-current-fragment" style="background-color: rgba(46, 146, 204, 0.514);">
+    <p>
+        In science we typically work with <strong>models</strong>.
+        We have to accept that our models (lab) are dissimilar to
+        our <strong>prototypes</strong> (pilot) and also our <strong>reality</strong>
+        (factory); our goal is to approach similarity by
+        considering the <strong>relevant physical relations</strong>.
+    </p>
+</blockquote>
+</section>
+
+<section>
+    <h3>Similtude in Mixing</h3>
+    <img src="img/mix_gif.gif">
+    <img src="img/mix_gif2.gif">
+
 </section>
 
 

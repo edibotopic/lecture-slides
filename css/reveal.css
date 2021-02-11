@@ -2591,6 +2591,15 @@ html.print-pdf .aria-status {
   50% {filter: hue-rotate(180deg); }
 }
 
+.gray {
+  animation: gray 10s forwards;
+}
+
+@keyframes gray {
+  0% {filter: grayscale(0%); }
+  100% {filter: grayscale(100%); }
+}
+
 .sepia {
   animation: sepia 10s forwards;
 }
