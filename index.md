@@ -49,6 +49,8 @@ Lecture#3: [Engineering Principles I](http://edibotopic.github.io/lecture-slides
 
 Lecture#4: [Engineering Principles II](http://edibotopic.github.io/lecture-slides/FS2006_4.html)
 
+Lecture#5: [Engineering Principles III](http://edibotopic.github.io/lecture-slides/FS2006_5.html)
+
 ---
 
 ## :microscope:Food Analysis & Processing 
