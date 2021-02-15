@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Food Technology, Culture & Ethics 1</title>
+
+	<meta name="description" content="Protein Fractionation">
+	<meta name="author" content="Shane Crowley">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+	<link rel="stylesheet" href="./css/reveal.css">
+	<link rel="stylesheet" href="./dist/theme/shanestheme.css" id="theme">
+	<link rel="stylesheet" href="./plugin/highlight/monokai.css">
+	<link rel="stylesheet" href="./css/print/pdf.scss" type="text/css" media="print">
+	<!-- <link rel="stylesheet" href="./las/1.3.0/css/line-awesome.min.css"> -->
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous"> -->
+	
+	<script src="./dist/reveal.js"></script>
+    <script src="./plugin/markdown/markdown.js"></script>
+	<script src="./plugin/highlight/highlight.js"></script>
+	<script src="./plugin/chart/Chart.min.js"></script>
+	<script src="./plugin/chart/plugin.js"></script>
+	<script src="./plugin/math/math.js", async: true></script>
+	<script src="./plugin/chalkboard/plugin.js"></script>
+	<script src="https://kit.fontawesome.com/7aef6575d6.js" crossorigin="anonymous"></script>
+	<script src="./plugin/menu/menu.js"></script>
+	<script src="./plugin/menu/plugin.js"></script>
+	<!-- <script src="./plugin/zoom/zoom.js", async: false></script> -->
+	<!-- <script src="https://cdn.babylonjs.com/viewer/babylon.viewer.js"></script> -->
+
+
+</head>
+
+<body>
+
+	<div class="reveal">
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section>
+				<section>
+				<h2>Fluids:<br>Hydrostatics I</h1>
+				<h3><i>Dr Shane V Crowley</i></h3>
+				<p><small>Press <b>down</b> for controls and <b>right</b> to progress</small></p>	
+	
+				</section>
+				<section>
+					<h3 style>Interacting with the Slides</h3>
+					<p><b>📺Full screen</b>: press the <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">F</mark> key</p>
+					<p><b>🎮View video controls</b>: hover cursor over video</p>
+					<!-- <p><b>🔎Zoom in</b>: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">alt+leftmousebutton</mark></p> -->
+					<p>👩‍🎨<i class="fas fa-pen" style="color: yellow;"></i><b> Draw</b>: click icon or press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">C</mark></p>
+					<p><b>🌈Pen colour</b>: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">X</mark> to cycle and 
+					<mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">Y</mark> to revert</p>
+					<p>💁<i class="fas fa-bars" style="color: yellow;"></i><b> Options and Info</b>: click icon or press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">M</mark>  </p>
+				</section>
+			</section>
+<!-- 
+			<section>
+				<p> A link to the <b>video</b> wil be posted shortly. . .</p>
+			</section> -->
+
+			<!-- <section data-background-color="#000000">
+				<p> Link to <b>video</b> below:
+					<br>
+					<a href="https://youtu.be/GAZibmrLX_g">👉<i>https://youtu.be/pslQXeA5Rm8</i></a>
+				</p>
+
+				<img title="Scan me with your phone!" src="img/qr_fs1005_yt6.png" alt="if you don't see a QR code click the link" style="height: 340px; margin: 0 auto 4rem auto; background: transparent;" class="qr_code">
+					<br>
+				<a href="http://edibotopic.github.io/lecture-slides/FS1005_6.html?print-pdf" title="For your added conveniance">Click here for printable version (within reason)👈</a>
+			</section> -->
+
+
+
+			<section>
+				<h3>Observations on Fluids</h3>
+				<br><br><br><br>
+
+				<div class="slideshow center">
+				<img data-src="img/davinci_1.jpg" width="60%" height="100%">
+				<img data-src="img/davinci_2.jpg" width="60%" height="100%">
+				<img data-src="img/davinci_3.jpg" width="60%" height="100%">
+				<img data-src="img/davinci_4.jpg" width="60%" height="100%">
+				</div>
+				<br><br><br><br><br>
+			</section>
+
+            <section data-background-image="img/aquaduct.jpg">
+
+                <blockquote style="background-color: rgba(255, 166, 0, 0.692);">
+                    <strong style="color: black;">
+                        Sometimes we want to move fluids
+                    </strong>
+                </blockquote>
+
+                <!-- <img src="img/aquaduct.jpg"> -->
+            </section>
+
+            <section data-background-image="img/dam.jpg">
+
+                <blockquote style="background-color: rgba(255, 166, 0, 0.692);">
+                    <strong style="color: black;">
+                        Sometimes we want to stop fluids
+                    </strong>
+                </blockquote>
+
+                <!-- <img src="img/dam.jpg"> -->
+            </section>
+
+            <section data-background-image="img/hpp_wired.png">
+                <div class="fragment fade-in" style="background-color: rgba(66, 18, 58, 0.678);">
+                    <br>
+                    <h3>Questions in this Section</h3>
+                <ol >
+                    <li>
+                        What is pressure?
+                    </li>
+                    <li>
+                        Why is pressure important?
+                    </li>
+                    <li>
+                        How do we measure pressure?
+                    </li>
+                    <li>
+                        Can we process with pressure?
+                    </li>
+                    <br>
+                </ol>
+                <br>
+                </div>
+
+
+            </section>
+
+            <section data-transition="zoom">
+                <h3>Branches</h3>
+
+                <img src="img/fluid_mech.jpg" class="hue">
+            </section>
+
+            <section>
+                <h3>Fluids 🥛 🍷 🍺</h3>                    
+                <br>
+                <ul>
+                    <li class="fragment fade-in-then-semi-out">
+                        Fluids = {liquid, gas, plasma} 
+                    </li>
+                    <br>
+                    <li class="fragment fade-in-then-semi-out">
+                        We will mostly talk about <strong>liquids</strong>
+                    </li>
+                    <br>
+                    <li class="fragment fade-in-then-semi-out">
+                        Important note: powders are <strong>"fluidisable"</strong>🥺
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Fluids at Rest</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zxdyTIvpuOo?controls=0"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                picture-in-picture" allowfullscreen></iframe>
+                <br><br>
+                <small><strong>Pressure at rest (statics) can cause flow (dynamics)</strong></small>
+            </section>
+
+            <section data-background-image="https://media.giphy.com/media/AheZDLIrOKu2Y/giphy.gif" data-transition="convex">
+                <div style="background-color: rgba(0, 0, 0, 0.445);">
+                <h3>Hydrostatic Pressure</h3>
+
+                <p>$$P = \rho \cdot g \cdot h$$</p>
+                    <div class="fragment fade-in">
+                    <strong>OR</strong>
+
+                    <p>$$P_A = P_S + \rho \cdot g \cdot h$$</p>   
+                    </div>
+  
+            <br>                    
+            <small class="fragment fade-in"><strong style="color: orange;">Note: this is only <u>one kind</u> of pressure</strong></small> 
+                </div>
+
+            </section>
+
+            <section data-background-image="img/barrels.jpg" data-transition="convex">
+                
+                <div style="background-color: rgba(0, 0, 0, 0.452);">
+                <h3>Some Consequences</h3>
+
+                <ul>
+                    <li class="fragment grow">
+                        The Hydrostatic Paradox (<strong>Pascal's barrel</strong>)
+                    </li>
+                    <br>
+                    <li class="fragment grow">
+                        A <strong>pressure head</strong> can lift a column of water
+                    </li>
+                    <br>
+                    <li class="fragment grow">
+                        We can talk of <strong>absolute</strong> and <strong>gauge</strong> pressure
+                    </li>
+                </ul>
+            </div>
+            </section>
+
+            <section>
+                <h3>It's the Height, Not the Weight 😕</h3>
+<br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EJHrr21UvY8?controls=0"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                picture-in-picture" allowfullscreen></iframe>
+
+            </section>
+
+            <section>
+                <h3>Remember this <small class="throb">💭</small></h3>
+                <br>
+                <blockquote style="background-color: rgba(238, 130, 238, 0.233);"><p>
+                    In the same way that we say there is
+                    an energy balance in a system we also
+                    say there is a pressure balance
+                </p></blockquote>
+                <br>
+                <small><strong>This balance is expressed with Bernoulli's equation</strong></small>
+            </section>
+
+            <section>
+            <p>$$\color{violet}{P} + \color{orange}{\rho \cdot \frac{v^2}{2}} + \color{aqua}{\rho \cdot g \cdot h} = constant$$</p>
+                
+            <div class="fragment fade-up">
+            <strong>OR</strong>
+
+            <p>$$\color{violet}{\frac{P}{\rho \cdot g}} + \color{orange}{\frac{v^2}{2g}} + \color{aqua}{h} = constant$$</p>
+            </div>
+  
+            <div class="fragment fade-up">
+            <strong>OR</strong>
+
+            <p class="throb">$$v = \sqrt{2g\color{aqua}{h}}$$</p> 
+            </div>
+
+            </section>
+
+            <section data-background-image="https://media.giphy.com/media/oz4jYoMA0IFTgvmPXL/source.gif">
+                <blockquote style="background-color: rgba(0, 0, 0, 0.541);">
+                    <strong style="color: wheat;">
+                        Toricelli's law doesn't account for viscosity
+                        and in food systems this is very important. . .
+                    </strong>
+                </blockquote>
+            </section>
+
+			<section>
+				<h3><strong>Next Lecture</strong> <br> </h3>
+				<p><i>Role of viscosity & pressure gauges</i></p>
+
+				<a href="mailto:shane.crowley@ucc.ie">shane.crowley@ucc.ie</p>
+				<a href="mailto:shane.crowley@ucc.ie">
+					<img alt="media not supported by your browser" title="Email me, or better POST ON PIAZZA" src="img/edibo_icon_wp.png" alt="edibotopic logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="logo">
+				</a>
+			</section>
+
+		</div>
+	</div>
+
+	<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.configure({ pdfSeparateFragments: false });
+			Reveal.initialize({
+				// for gh set controls to true and toggle chalkboard.js to true also
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+				slideNumber: 'c',
+				// below changes (should) make SPC pause/play video
+				keyboard: {
+					13: 'next',
+					32: () => {
+						var currentSlide = Reveal.getCurrentSlide();
+						var currentVideo = currentSlide.getElementsByTagName("video")[0];
+						if (currentVideo) {
+							if (currentVideo.paused == true) currentVideo.play();
+							else currentVideo.pause();
+						}
+						else {
+							Reveal.next();
+						}
+					}
+				},
+				chart: {
+					defaults: { 
+						global: { 
+							title: { fontColor: "#FFF" }, 
+							legend: {
+								position: "bottom",
+								labels: { fontColor: "#FFF", fontSize: 28 },
+							},
+							tooltips: {
+								labels: { fontColor: "#FFF"},
+							},
+						},
+						scale: { 
+							scaleLabel: { fontColor: "#FFF" }, 
+							gridLines: { color: "#FFF", zeroLineColor: "#FFF" }, 
+							ticks: { fontColor: "#FFF", fontSize: 24 }, 
+						} 
+					},
+					line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ] }, 
+					bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+					pie: { backgroundColor: [ ["rgba(255,255,68,.8)" , "rgba(238,130,238,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+					radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+				},
+
+				menu: {
+					numbers: 'c',
+					width: 'normal',
+					openSlideNumber: true,
+					openButton: true, //set to true after recording
+					markers: 'true',
+					themes:
+					[
+						{ name: 'Shane\'s theme', theme: 'dist/theme/shanestheme.css'},
+						{ name: 'Dark theme', theme: 'dist/theme/night.css' },
+						{ name: 'Light theme', theme: 'dist/theme/simple.css' },
+						{ name: 'Sky theme', theme: 'dist/theme/sky.css' },
+						{ name: 'Serif theme', theme: 'dist/theme/serif.css' },
+					],
+					themesPath: 'dist/theme/',
+					transitions: false,
+					useTextContentForMissingTitles: true,
+					hideMissingTitles: true,
+					custom: [
+					{
+						title: 'References',
+						icon: '<i class="fa fa-external-link">',
+						content:
+						'<h1>Notes will be posted on Canvas site</h2>'
+					},
+					{
+						title: 'About',
+						icon: '<i class="fa fa-info">',
+						content: '<p>First lecture on hydrostatics <br> <br> Credits: any unoriginal images are Public Domain and are used without attribution</p>'
+
+					}
+					]
+					
+            	},
+
+
+				plugins: [ RevealMarkdown, RevealHighlight, RevealChalkboard, RevealChart, RevealMath, RevealMenu ],
+
+			});
+	</script>
+
+</body>
+</html>
