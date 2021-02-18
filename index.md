@@ -55,7 +55,7 @@ Lecture#5: [Engineering Principles III](http://edibotopic.github.io/lecture-slid
 
 Lecture#6: [Hydrostatics I](http://edibotopic.github.io/lecture-slides/FS2006_6.html)
 
-Lecture#6: [Intermission: Excel Basics](http://edibotopic.github.io/lecture-slides/FS2006_7.html)
+Lecture#7: [Intermission: Excel Basics](http://edibotopic.github.io/lecture-slides/FS2006_7.html)
 
 ---
 
