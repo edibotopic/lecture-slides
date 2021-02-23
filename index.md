@@ -36,6 +36,8 @@ Lecture#11: [Molecules and Structure II: Protein Story](http://edibotopic.github
 
 Lecture#12: [Food Technology I: Science, Art, Design](http://edibotopic.github.io/lecture-slides/FS1005_14.html)
 
+Lecture#13: [Food Technology II: Technological Development](http://edibotopic.github.io/lecture-slides/FS1005_15.html)
+
 ---
 
 ## :factory:Food Process Design & Optimisation 
