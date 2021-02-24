@@ -61,6 +61,8 @@ Lecture#7: [Intermission: Excel Basics](http://edibotopic.github.io/lecture-slid
 
 Lecture#8: [Hydrostatics II](http://edibotopic.github.io/lecture-slides/FS2006_8.html)
 
+Lecture#9: [Hydrodynamics I](http://edibotopic.github.io/lecture-slides/FS2006_9.html)
+
 ---
 
 ## :microscope:Food Analysis & Processing 
