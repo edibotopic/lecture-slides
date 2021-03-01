@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Food Technology, Culture & Ethics 1</title>
+
+	<meta name="description" content="Protein Fractionation">
+	<meta name="author" content="Shane Crowley">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+	<link rel="stylesheet" href="./css/reveal.css">
+	<link rel="stylesheet" href="./dist/theme/shanestheme.css" id="theme">
+	<link rel="stylesheet" href="./plugin/highlight/monokai.css">
+	<link rel="stylesheet" href="./css/print/pdf.scss" type="text/css" media="print">
+	<!-- <link rel="stylesheet" href="./las/1.3.0/css/line-awesome.min.css"> -->
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous"> -->
+	
+	<script src="./dist/reveal.js"></script>
+    <script src="./plugin/markdown/markdown.js"></script>
+	<script src="./plugin/highlight/highlight.js"></script>
+	<script src="./plugin/chart/Chart.min.js"></script>
+	<script src="./plugin/chart/plugin.js"></script>
+	<script src="./plugin/math/math.js", async: true></script>
+	<script src="./plugin/chalkboard/plugin.js"></script>
+	<script src="https://kit.fontawesome.com/7aef6575d6.js" crossorigin="anonymous"></script>
+	<script src="./plugin/menu/menu.js"></script>
+	<script src="./plugin/menu/plugin.js"></script>
+	<!-- <script src="./plugin/zoom/zoom.js", async: false></script> -->
+	<!-- <script src="https://cdn.babylonjs.com/viewer/babylon.viewer.js"></script> -->
+
+
+</head>
+
+<body>
+
+	<div class="reveal">
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section>
+				<section>
+				<h2>Hydrodynamics II:<br>Turbulence, Fouling & Residence</h1>
+				<h3><i>Dr Shane V Crowley</i></h3>
+				<p><small>Press <b>down</b> for controls and <b>right</b> to progress</small></p>	
+	
+				</section>
+				<section>
+					<h3 style>Interacting with the Slides</h3>
+					<p><b>📺Full screen</b>: press the <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">F</mark> key</p>
+					<p><b>🎮View video controls</b>: hover cursor over video</p>
+					<!-- <p><b>🔎Zoom in</b>: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">alt+leftmousebutton</mark></p> -->
+					<p>👩‍🎨<i class="fas fa-pen" style="color: yellow;"></i><b> Draw</b>: click icon or press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">C</mark></p>
+					<p><b>🌈Pen colour</b>: press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">X</mark> to cycle and 
+					<mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">Y</mark> to revert</p>
+					<p>💁<i class="fas fa-bars" style="color: yellow;"></i><b> Options and Info</b>: click icon or press <mark style="background-color: rgb(153, 153, 153);outline-color: white;outline-style: solid;">M</mark>  </p>
+				</section>
+			</section>
+<!-- 
+			<section>
+				<p> A link to the <b>video</b> wil be posted shortly. . .</p>
+			</section> -->
+
+            <section>
+				<p> Links to <b>video</b> below:
+					<br>
+					<a href="https://youtu.be/fGk5Yx5sNx0">👉<i>https://youtu.be/fGk5Yx5sNx0</i></a>
+				</p>
+
+				<img title="Scan me with your phone!" src="img/qr_fs2006_10yt.png" alt="if you don't see a QR code click the link" style="height: 340px; margin: 0 auto 4rem auto; background: transparent;" class="qr_code">
+					<br>
+                    <br>
+                    <a href="https://edibotopic.github.io/lecture-slides/FS2006_10.html?print-pdf" title="For your added convenience">Click for print version (not recommended)👈</a>
+			</section>
+
+            <section data-background-image="https://media.giphy.com/media/ejHCFHxAlZfl6/giphy.gif">
+                <blockquote style="background-color: rgba(0, 0, 0, 0.459);">
+                    <p>
+                        Fluids in a dynamic state can have different states of flow.
+                    </p>
+                </blockquote>
+            </section>
+
+            <section data-background-image="https://media.giphy.com/media/3ofSBcPo3rOxWAt5vi/giphy.gif">
+                <blockquote style="background-color: rgba(0, 0, 0, 0.459);">
+                    <p>
+                        Increases in velocity are accompanied by increases in turbulence.
+                    </p>
+                </blockquote>
+            </section>
+
+            <section data-background-video="vids/fs2006_honey.mp4">
+                <blockquote style="background-color: rgba(0, 0, 0, 0.459);">
+                    <p>
+                        Viscosity opposes the tendency for flow to become chaotic.
+                    </p>
+                </blockquote>
+            </section>
+
+            <section>
+                <img src="img/reynolds_experiment.jpg" style="width: 50%;"
+
+                <blockquote style="background-color: rgba(0, 0, 0, 0.459);">
+                    <br>
+                    <small style="color: orange;">
+                        Reynold's original experiment (kinda cool)
+                    </small>
+                </blockquote>
+            </section>
+
+            <section data-transition="zoom" data-background-image="https://media.giphy.com/media/Rh4RZFrlylnpiFVtp7/giphy.gif">
+                <div class="container">
+                <img class="fragment fade-right" src="img/death_stranding.gif" style="border: orange; border-style: solid; border-width: 10px;">
+
+                    <p class="text-block-center fragment fade-in" style="top: 45%; background-color: rgba(238, 130, 238, 0.596);">
+                        In laminar flow there are distinct regions of high/low velocity
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Measurement Principle</h2>
+                <br>
+                <svg width="206.87mm" height="135.02mm" version="1.1" viewBox="0 0 206.87 135.02" xmlns="http://www.w3.org/2000/svg">
+                    <g transform="translate(2.2809 -80.654)">
+                     <path d="m1.5119 122.09h198.72" stroke="#fff" stroke-width="1.3725"/>
+                     <g fill="none" stroke-width="1.3725">
+                      <path d="m1.5119 161.24h198.72" stroke="#fff"/>
+                      <g stroke="#f0f">
+                       <path transform="matrix(.21677 0 0 1 23.33 0)" d="m31.145 150.66h198.72"/>
+                       <path transform="matrix(.42983 0 0 1 16.688 0)" d="m31.145 142.72h198.72"/>
+                       <path transform="matrix(1 0 0 .071101 -.39687 132.58)" d="m31.145 142.72v-198.72"/>
+                       <path transform="matrix(1 0 0 .074531 -.39016 139.47)" d="m31.145 349.38v-198.72"/>
+                      </g>
+                     </g>
+                     <g stroke="#0ff">
+                      <path transform="scale(.26458)" d="m113.45 625.29s-0.0453 7e-3 -0.0488 8e-3h-0.22852v0.0371c-0.64074 0.10076-2.9104 0.49475-5.0234 1.377-1.6389 0.68424-3.2407 1.6294-4.4766 3.0352-0.91896 1.0453-2.7574 3.6372-4.0098 5.4082-1.9099 2.7008-3.094 5.868-3.2695 10.434-0.24577 6.3909 0 19.102 0 19.102l1-0.0195s-0.24282-12.729 0-19.043c0.16972-4.4133 1.2743-7.3327 3.0859-9.8945 1.2504-1.7682 3.1365-4.4062 3.9453-5.3262 1.0992-1.2503 2.5596-2.1244 4.1094-2.7715 2.2346-0.93293 4.8175-1.3165 4.9629-1.3379h5.1328c0.14551 0.0214 2.7284 0.40499 4.9629 1.3379 1.5498 0.64704 3.0102 1.5212 4.1094 2.7715 0.80879 0.91997 2.695 3.558 3.9453 5.3262 1.8116 2.5619 2.9162 5.4812 3.0859 9.8945 0.24282 6.3141 0 19.043 0 19.043l1 0.0195s0.24577-12.711 0-19.102c-0.17558-4.5656-1.3597-7.7328-3.2695-10.434-1.2523-1.771-3.0908-4.3629-4.0098-5.4082-1.2358-1.4057-2.8376-2.3509-4.4766-3.0352-2.1418-0.89419-4.4457-1.2873-5.0469-1.3809v-0.0332h-0.20507c-4e-3 -5e-4 -0.0488-8e-3 -0.0488-8e-3l-2e-3 8e-3h-5.2227z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" stroke-width="1px" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+                      <path transform="matrix(.26458 0 0 -.26458 0 293.87)" d="m113.45 625.29s-0.0453 7e-3 -0.0488 8e-3h-0.22852v0.0371c-0.64074 0.10076-2.9104 0.49475-5.0234 1.377-1.6389 0.68424-3.2407 1.6294-4.4766 3.0352-0.91896 1.0453-2.7574 3.6372-4.0098 5.4082-1.9099 2.7008-3.094 5.868-3.2695 10.434-0.24577 6.3909 0 19.102 0 19.102l1-0.0195s-0.24282-12.729 0-19.043c0.16972-4.4133 1.2743-7.3327 3.0859-9.8945 1.2504-1.7682 3.1365-4.4062 3.9453-5.3262 1.0992-1.2503 2.5596-2.1244 4.1094-2.7715 2.2346-0.93293 4.8175-1.3165 4.9629-1.3379h5.1328c0.14551 0.0214 2.7284 0.40499 4.9629 1.3379 1.5498 0.64704 3.0102 1.5212 4.1094 2.7715 0.80879 0.91997 2.695 3.558 3.9453 5.3262 1.8116 2.5619 2.9162 5.4812 3.0859 9.8945 0.24282 6.3141 0 19.043 0 19.043l1 0.0195s0.24577-12.711 0-19.102c-0.17558-4.5656-1.3597-7.7328-3.2695-10.434-1.2523-1.771-3.0908-4.3629-4.0098-5.4082-1.2358-1.4057-2.8376-2.3509-4.4766-3.0352-2.1418-0.89419-4.4457-1.2873-5.0469-1.3809v-0.0332h-0.20507c-4e-3 -5e-4 -0.0488-8e-3 -0.0488-8e-3l-2e-3 8e-3h-5.2227z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" stroke-width="1.7575" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+                      <path transform="matrix(.26458 0 0 .26458 0 1.0583)" d="m116.7 764.55v18.75h16.518-33.571" fill="none" stroke-width="3.2693"/>
+                      <path transform="matrix(.26458 0 0 -.26458 -.13628 292.82)" d="m116.7 764.55c-0.1399 3.452-9e-3 12.314 0 18.75h16.518-33.571" fill="none" stroke-width="3.2693"/>
+                     </g>
+                     <g fill="#ff0" stroke="#ff0">
+                      <path transform="matrix(1 0 0 .059208 -27.028 148.75)" d="m31.145 142.72v-198.72" stroke-width="1.3725"/>
+                      <path transform="matrix(1 0 0 .018018 -13.621 154.64)" d="m31.145 142.72v-198.72" stroke-width="1.3725"/>
+                      <g stroke-width="1px">
+                       <path transform="matrix(.14006 0 0 .14006 15.414 80.687)" d="m4.0406 521.49h20.961l-10.218-16.761z"/>
+                       <path transform="matrix(.14006 0 0 -.14006 15.461 230.17)" d="m4.0406 521.49h20.961l-10.218-16.761z"/>
+                       <path transform="matrix(.14006 0 0 .14006 2.1329 72.521)" d="m4.0406 521.49h20.961l-10.218-16.761z"/>
+                       <path transform="matrix(.14006 0 0 -.14006 2.0465 229.99)" d="m4.0406 521.49h20.961l-10.218-16.761z"/>
+                      </g>
+                     </g>
+                     <path transform="matrix(.27613 0 0 .26474 -1.1117 -.052695)" d="m96.848 445.86v-104.17h36.744v103.79" fill="none" stroke="#0ff" stroke-width="2.6445"/>
+                     <path transform="matrix(.27613 0 0 -.26474 -1.1117 293.9)" d="m96.848 445.86v-104.17h36.744v103.79" fill="none" stroke="#0ff" stroke-width="1.9048"/>
+                     <g font-family="sans-serif" font-size="10.583px">
+                      <g>
+                       <text transform="translate(12.851 -.75595)" fill="#000000" style="line-height:1.25;shape-inside:url(#rect1187);white-space:pre" xml:space="preserve"><tspan x="-6.8984375" y="150.35664"><tspan fill="#ffff00" font-size="6.35px">H2</tspan></tspan></text>
+                       <text transform="translate(26.458 7.465)" fill="#000000" style="line-height:1.25;shape-inside:url(#rect1195);white-space:pre" xml:space="preserve"><tspan x="-6.8984375" y="150.35664"><tspan fill="#ffff00" font-size="6.35px">H1</tspan></tspan></text>
+                       <text transform="translate(49.734 -59.021)" fill="#00ffff" style="line-height:1.25;shape-inside:url(#rect1201);white-space:pre" xml:space="preserve"><tspan x="-6.8984375" y="150.35664"><tspan fill="#00ffff" font-size="6.35px">Injection of dye at H2</tspan></tspan></text>
+                      </g>
+                      <text transform="translate(49.734 -59.021)" fill="#000000" style="line-height:1.25;shape-inside:url(#rect1207);white-space:pre" xml:space="preserve"/>
+                      <text transform="translate(50.49 56.64)" fill="#00ffff" style="line-height:1.25;shape-inside:url(#rect1213);white-space:pre" xml:space="preserve"><tspan x="-6.8984375" y="150.35664"><tspan fill="#00ffff" font-size="6.35px">Injection of dye at H1</tspan></tspan></text>
+                      <text transform="translate(136.86 -3.4286)" fill="#ff00ff" style="line-height:1.25;shape-inside:url(#rect1219);white-space:pre" xml:space="preserve"><tspan x="-6.8984375" y="150.35664"><tspan fill="#ff00ff" font-size="6.35px">Velocity differential</tspan></tspan></text>
+                     </g>
+                    </g>
+                   </svg>
+            </section>
+
+            <section data-transition="concave" data-transition-speed="slow">
+                <h4 style="color: orange;">Turbulence defined by Re (as you know)</h3>
+                    <br>
+                <p>
+                    $$\color{aqua}{Re = \frac{v \cdot D \cdot \rho}{\mu} \rightarrow \ pipeflow}$$
+                </p>
+                <br>
+                <p>
+                    $$\color{violet}{Re = \frac{\rho \cdot N \cdot D^2}{\mu} \rightarrow \ stirring/mixing}$$
+                </p>
+            </section>
+
+            <section data-transition="concave" data-transition-speed="slow">
+                  <img src="img/pipe_foul.png" class="hue">
+            </section>
+
+            <section data-transition="concave"  data-transition-speed="slow">
+                <h3>Residence times</h3>
+                <img src="img/residence.png">
+            </section>
+
+			<section>
+				<h3><strong>Next Lecture</strong> <br> </h3>
+				<p><i>Continuity, Venturis and Flow Meters</i></p>
+
+				<a href="mailto:shane.crowley@ucc.ie">shane.crowley@ucc.ie</p>
+				<a href="mailto:shane.crowley@ucc.ie">
+					<img alt="media not supported by your browser" title="Email me, or better POST ON PIAZZA" src="img/edibo_icon_wp.png" alt="edibotopic logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="logo">
+				</a>
+			</section>
+
+		</div>
+	</div>
+
+	<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.configure({ pdfSeparateFragments: false });
+			Reveal.initialize({
+				// for gh set controls to true and toggle chalkboard.js to true also
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+				slideNumber: 'c',
+				// below changes (should) make SPC pause/play video
+				keyboard: {
+					13: 'next',
+					32: () => {
+						var currentSlide = Reveal.getCurrentSlide();
+						var currentVideo = currentSlide.getElementsByTagName("video")[0];
+						if (currentVideo) {
+							if (currentVideo.paused == true) currentVideo.play();
+							else currentVideo.pause();
+						}
+						else {
+							Reveal.next();
+						}
+					}
+				},
+
+                chart: {
+        defaults: { 
+            global: { 
+                title: { fontColor: "#FFF" }, 
+                legend: {
+                    position: "bottom",
+                    labels: { fontColor: "#FFF" },
+                },
+                tooltips: {
+                    labels: { fontColor: "#FFF" },
+                },
+            }, 
+            scale: { 
+                scaleLabel: { fontColor: "#FFF" }, 
+                gridLines: { color: "#FFF", zeroLineColor: "#FFF" }, 
+                ticks: { fontColor: "#FFF" }, 
+            } 
+        },
+        line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ] }, 
+        bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+        pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+        radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+    },
+
+				menu: {
+					numbers: 'c',
+					width: 'normal',
+					openSlideNumber: true,
+					openButton: true, //set to true after recording
+					markers: 'true',
+					themes:
+					[
+						{ name: 'Shane\'s theme', theme: 'dist/theme/shanestheme.css'},
+						{ name: 'Dark theme', theme: 'dist/theme/night.css' },
+						{ name: 'Light theme', theme: 'dist/theme/simple.css' },
+						{ name: 'Sky theme', theme: 'dist/theme/sky.css' },
+						{ name: 'Serif theme', theme: 'dist/theme/serif.css' },
+					],
+					themesPath: 'dist/theme/',
+					transitions: false,
+					useTextContentForMissingTitles: true,
+					hideMissingTitles: true,
+					custom: [
+					{
+						title: 'References',
+						icon: '<i class="fa fa-external-link">',
+						content:
+						'<h1>NA</h2>'
+					},
+					{
+						title: 'About',
+						icon: '<i class="fa fa-info">',
+						content: '<p>On turbulence and its influence on residence times during pipe flow.</p>'
+
+					}
+					]
+					
+            	},
+
+
+				plugins: [ RevealMarkdown, RevealHighlight, RevealChalkboard, RevealChart, RevealMath, RevealMenu ],
+
+			});
+	</script>
+
+</body>
+</html>

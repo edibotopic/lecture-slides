@@ -63,6 +63,8 @@ Lecture#8: [Hydrostatics II](http://edibotopic.github.io/lecture-slides/FS2006_8
 
 Lecture#9: [Hydrodynamics I](http://edibotopic.github.io/lecture-slides/FS2006_9.html)
 
+Lecture#10: [Hydrodynamics II](http://edibotopic.github.io/lecture-slides/FS2006_10.html)
+
 ---
 
 ## :microscope:Food Analysis & Processing 
