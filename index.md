@@ -38,6 +38,8 @@ Lecture#12: [Food Technology I: Science, Art, Design](http://edibotopic.github.i
 
 Lecture#13: [Food Technology II: Technological Development](http://edibotopic.github.io/lecture-slides/FS1005_15.html)
 
+Lecture#14: [Techno-ethics I: Introduction](http://edibotopic.github.io/lecture-slides/FS1005_16.html)
+
 ---
 
 ## :factory:Food Process Design & Optimisation 
