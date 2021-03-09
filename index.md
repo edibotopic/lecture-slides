@@ -69,6 +69,8 @@ Lecture#10: [Hydrodynamics II](http://edibotopic.github.io/lecture-slides/FS2006
 
 Lecture#11: [Intermission: Typing Math](http://edibotopic.github.io/lecture-slides/FS2006_11.html)
 
+Lecture#10: [Hydrodynamics III](http://edibotopic.github.io/lecture-slides/FS2006_12.html)
+
 ---
 
 ## :microscope:Food Analysis & Processing 
