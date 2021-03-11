@@ -69,7 +69,9 @@ Lecture#10: [Hydrodynamics II](http://edibotopic.github.io/lecture-slides/FS2006
 
 Lecture#11: [Intermission: Typing Math](http://edibotopic.github.io/lecture-slides/FS2006_11.html)
 
-Lecture#10: [Hydrodynamics III](http://edibotopic.github.io/lecture-slides/FS2006_12.html)
+Lecture#12: [Hydrodynamics III](http://edibotopic.github.io/lecture-slides/FS2006_12.html)
+
+Lecture#13: [Separations I](http://edibotopic.github.io/lecture-slides/FS2006_13.html)
 
 ---
 
