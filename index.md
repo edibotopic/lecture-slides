@@ -40,6 +40,8 @@ Lecture#13: [Food Technology II: Technological Development](http://edibotopic.gi
 
 Lecture#14: [Techno-ethics I: Introduction](http://edibotopic.github.io/lecture-slides/FS1005_16.html)
 
+Lecture#15: [Intermission: Pre-recording a Group Presentation](http://edibotopic.github.io/lecture-slides/FS1005_17.html)
+
 ---
 
 ## :factory:Food Process Design & Optimisation 
