@@ -77,6 +77,8 @@ Lecture#13: [Separations I](http://edibotopic.github.io/lecture-slides/fs2006_13
 
 Lecture#14: [Separations II](http://edibotopic.github.io/lecture-slides/FS2006_14.html)
 
+Lecture#15: [Separations III](http://edibotopic.github.io/lecture-slides/FS2006_15.html)
+
 ---
 
 ## :microscope:Food Analysis & Processing 
