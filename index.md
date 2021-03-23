@@ -42,6 +42,8 @@ Lecture#14: [Techno-ethics I: Introduction](http://edibotopic.github.io/lecture-
 
 Lecture#15: [Intermission: Pre-recording a Group Presentation](http://edibotopic.github.io/lecture-slides/FS1005_17.html)
 
+Lecture#16: [Techno-ethics II: Consequences](http://edibotopic.github.io/lecture-slides/FS1005_18.html)
+
 ---
 
 ## :factory:Food Process Design & Optimisation 
