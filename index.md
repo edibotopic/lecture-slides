@@ -44,6 +44,8 @@ Lecture#15: [Intermission: Pre-recording a Group Presentation](http://edibotopic
 
 Lecture#16: [Techno-ethics II: Consequences](http://edibotopic.github.io/lecture-slides/FS1005_18.html)
 
+Lecture#17: [Techno-ethics III: Sustainability](http://edibotopic.github.io/lecture-slides/FS1005_19.html)
+
 ---
 
 ## :factory:Food Process Design & Optimisation 
@@ -80,6 +82,8 @@ Lecture#13: [Separations I](http://edibotopic.github.io/lecture-slides/fs2006_13
 Lecture#14: [Separations II](http://edibotopic.github.io/lecture-slides/FS2006_14.html)
 
 Lecture#15: [Separations III](http://edibotopic.github.io/lecture-slides/FS2006_15.html)
+
+Lecture#16: [Evaporation, Bulk Solids, Industry 4.0](http://edibotopic.github.io/lecture-slides/FS2006_16.html)
 
 ---
 
