@@ -1,8 +1,8 @@
 body {
-  background-color: #fff;
+  background-color: #011627ff; //was #fff
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
+  color:#7fdbcaff; //was #727272
   font-weight:400;
 }
 
@@ -19,20 +19,20 @@ h1, h2, h3 {
 }
 
 h1 {
-  color:#b926ad;
-  font-size:28px;
+  color:#82aaffff;
+  font-size:36px; //was 28px
 }
 
 h2 {
-  color:#393939;
+  color:#82aaffff; //was #393939
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#82aaffff;
 }
 
 a {
-  color:#267CB9;
+  color:#c792eaff; //was #267CB9
   text-decoration:none;
 }
 
@@ -153,7 +153,7 @@ ul.downloads {
 }
 
 strong {
-  color:#222;
+  color:#fff; //was #222
   font-weight:700;
 }
 
