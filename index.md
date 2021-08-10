@@ -4,9 +4,9 @@ title: courses
 ---
 ---
 ## :green_salad:Food Technology, Culture & Ethics 
-*Module **FS1005**: Slides posted by **4 pm Tuesday** each week...*
+*Module **FS1005**: Slides will be posted again in Semester 1 (2021/2022)...*
 
-Lecture#0: [Introduction](http://edibotopic.github.io/lecture-slides/FS1005_0.html)
+<!-- Lecture#0: [Introduction](http://edibotopic.github.io/lecture-slides/FS1005_0.html)
 
 Lecture#1: [Ontology I](http://edibotopic.github.io/lecture-slides/FS1005_1.html)
 
@@ -44,14 +44,14 @@ Lecture#15: [Intermission: Pre-recording a Group Presentation](http://edibotopic
 
 Lecture#16: [Techno-ethics II: Consequences](http://edibotopic.github.io/lecture-slides/FS1005_18.html)
 
-Lecture#17: [Techno-ethics III: Sustainability](http://edibotopic.github.io/lecture-slides/FS1005_19.html)
+Lecture#17: [Techno-ethics III: Sustainability](http://edibotopic.github.io/lecture-slides/FS1005_19.html) -->
 
 ---
 
 ## :factory:Food Process Design & Optimisation 
-*Module **FS2006**: Slides uploaded **twice weekly** according to your timetable*
+*Module **FS2006**: Slides will be posted again in Semester 1 (2021/2022)...*
 
-Lecture#0: [Introduction](http://edibotopic.github.io/lecture-slides/FS2006_0.html)
+<!-- Lecture#0: [Introduction](http://edibotopic.github.io/lecture-slides/FS2006_0.html)
 
 Lecture#1: [Food Physics I](http://edibotopic.github.io/lecture-slides/FS2006_1.html)
 
@@ -83,13 +83,13 @@ Lecture#14: [Separations II](http://edibotopic.github.io/lecture-slides/FS2006_1
 
 Lecture#15: [Separations III](http://edibotopic.github.io/lecture-slides/FS2006_15.html)
 
-Lecture#16: [Evaporation, Bulk Solids, Industry 4.0](http://edibotopic.github.io/lecture-slides/FS2006_16.html)
+Lecture#16: [Evaporation, Bulk Solids, Industry 4.0](http://edibotopic.github.io/lecture-slides/FS2006_16.html) -->
 
 ---
 
 ## :microscope:Food Analysis & Processing 
-*Module **FS3020**: Lecture, practical demo and 3D visualisation on fractionating proteins from milk:*
+*Module **FS3020**: Slides will be posted again in Semester 1 (2021/2022)...*
 
-Slides: [Protein Fractionation](http://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html)
+<!-- Slides: [Protein Fractionation](http://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html) -->
 
 ---
