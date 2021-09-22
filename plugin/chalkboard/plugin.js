@@ -82,7 +82,7 @@ const initChalkboard = function(Reveal){
 	var theme = "chalkboard";
 	var color = [0, 0];
 	var toggleChalkboardButton = false;
-	var toggleNotesButton = false; //return to true after video
+	var toggleNotesButton = true; //return to true after video
 	var transition = 800;
 
 	var readOnly = undefined;
