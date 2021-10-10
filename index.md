@@ -94,6 +94,6 @@ Lecture#16: [Evaporation, Bulk Solids, Industry 4.0](http://edibotopic.github.io
 ## :microscope:Food Analysis & Processing 
 *Module **FS3020**: Slides will be posted again in Semester 1 (2021/2022)...*
 
-<!-- Slides: [Protein Fractionation](http://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html) -->
+Slides: [Protein Fractionation](http://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html)
 
 ---
