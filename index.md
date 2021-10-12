@@ -14,7 +14,7 @@ Pre-section: [Knowing Food](http://edibotopic.github.io/lecture-slides/pre_lectu
 
 Lecture#1: [Ontology I](http://edibotopic.github.io/lecture-slides/FS1005_1.html)
 
-<!-- Lecture#2: [Ontology II](http://edibotopic.github.io/lecture-slides/FS1005_2.html) -->
+Lecture#2: [Ontology II](http://edibotopic.github.io/lecture-slides/FS1005_2.html)
 
 <!-- Lecture#3: [Epistemology I](http://edibotopic.github.io/lecture-slides/FS1005_3.html) -->
 
