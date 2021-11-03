@@ -18,7 +18,7 @@ Lecture#2: [Ontology II](http://edibotopic.github.io/lecture-slides/FS1005_2.htm
 
 Lecture#3: [Epistemology I](http://edibotopic.github.io/lecture-slides/FS1005_3.html)
 
-<!-- Lecture#4: [Epistemology II](http://edibotopic.github.io/lecture-slides/FS1005_4.html) -->
+Lecture#4: [Epistemology II](http://edibotopic.github.io/lecture-slides/FS1005_4.html)
 
 <!-- Lecture#5: [Epistemology III](http://edibotopic.github.io/lecture-slides/FS1005_5.html) -->
 
