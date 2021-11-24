@@ -28,7 +28,7 @@ Lecture#7: [Semiotics II](http://edibotopic.github.io/lecture-slides/FS1005_7.ht
 
 Lecture#8: [Molecules and Structure I: Dispersions](http://edibotopic.github.io/lecture-slides/FS1005_8.html)
 
-Revision: [S1 Exam](http://edibotopic.github.io/lecture-slides/FS1005_9.html)
+Revision: [S1 Exam: Interactive examples](http://edibotopic.github.io/lecture-slides/FS1005_9.html)
 
 <!-- Lecture#8: [Rhetoric](http://edibotopic.github.io/lecture-slides/FS1005_8.html) -->
 
