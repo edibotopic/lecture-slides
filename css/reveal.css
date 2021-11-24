@@ -2500,6 +2500,12 @@ html.print-pdf .aria-status {
   background-color: rgba(14, 214, 221, 0.55);
   color: white;
 }
+
+/* bigger radios */
+input[type='radio'] { 
+  transform: scale(2.5); 
+}
+
 /* ********************************************* */
 /* ANIMATIONS */
  /* square to circle */
