@@ -4,7 +4,7 @@ title: courses
 ---
 ---
 ## :green_salad:Food Technology, Culture & Ethics 
-*Module **FS1005**: Slides posted by 4 pm each Wednesday ...*
+*Module **FS1005**: Slides posted by 4 pm each Tuesday ...*
 
 Pre-lecture#0: [Roadmap](http://edibotopic.github.io/lecture-slides/pre_lecture_0.html)
 
@@ -53,7 +53,7 @@ Revision: [S1 Exam: Interactive examples](http://edibotopic.github.io/lecture-sl
 ---
 
 ## :factory:Food Process Design & Optimisation 
-*Module **FS2006**: Slides will be posted again in Semester 1 (2021/2022)...*
+*Module **FS2006**: Slides will be posted soon (2021/2022)...*
 
 <!-- Lecture#0: [Introduction](http://edibotopic.github.io/lecture-slides/FS2006_0.html)
 
