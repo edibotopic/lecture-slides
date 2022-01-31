@@ -32,13 +32,13 @@ Revision: [S1 Exam: Interactive examples](http://edibotopic.github.io/lecture-sl
 
 Lecture#9: [Molecules and Structure II: Protein Story](http://edibotopic.github.io/lecture-slides/FS1005_13.html)
 
+Lecture#10: [Food Technology I: Science, Art, Design](http://edibotopic.github.io/lecture-slides/FS1005_14.html)
+
 <!-- Lecture#8: [Rhetoric](http://edibotopic.github.io/lecture-slides/FS1005_8.html) -->
 
 <!-- Feedback on [S1 Content](http://edibotopic.github.io/lecture-slides/FS1005_10.html) -->
 
 <!-- Lecture#10: [(Re)Introduction](http://edibotopic.github.io/lecture-slides/FS1005_12.html) -->
-
-<!-- Lecture#12: [Food Technology I: Science, Art, Design](http://edibotopic.github.io/lecture-slides/FS1005_14.html) -->
 
 <!-- Lecture#13: [Food Technology II: Technological Development](http://edibotopic.github.io/lecture-slides/FS1005_15.html) -->
 
