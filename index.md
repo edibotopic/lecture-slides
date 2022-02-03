@@ -63,9 +63,9 @@ Lecture#2: [Food Physics II](http://edibotopic.github.io/lecture-slides/FS2006_2
 
 <!-- Lecture#3: [Engineering Principles I](http://edibotopic.github.io/lecture-slides/FS2006_3.html) -->
 
-<!-- Lecture#4: [Engineering Principles II](http://edibotopic.github.io/lecture-slides/FS2006_4.html) -->
+Lecture#4: [Engineering Principles I](http://edibotopic.github.io/lecture-slides/FS2006_4.html)
 
-<!-- Lecture#5: [Engineering Principles III](http://edibotopic.github.io/lecture-slides/FS2006_5.html) -->
+Lecture#5: [Engineering Principles II](http://edibotopic.github.io/lecture-slides/FS2006_5.html)
 
 <!-- Lecture#6: [Hydrostatics I](http://edibotopic.github.io/lecture-slides/FS2006_6.html) -->
 
