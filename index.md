@@ -67,11 +67,12 @@ Lecture#4: [Engineering Principles I](http://edibotopic.github.io/lecture-slides
 
 Lecture#5: [Engineering Principles II](http://edibotopic.github.io/lecture-slides/FS2006_5.html)
 
-<!-- Lecture#6: [Hydrostatics I](http://edibotopic.github.io/lecture-slides/FS2006_6.html) -->
+Lecture#6: [Hydrostatics I](http://edibotopic.github.io/lecture-slides/FS2006_6.html)
+
+Lecture#7: [Hydrostatics II](http://edibotopic.github.io/lecture-slides/FS2006_8.html)
 
 <!-- Lecture#7: [Intermission: Excel Basics](http://edibotopic.github.io/lecture-slides/FS2006_7.html) -->
 
-<!-- Lecture#8: [Hydrostatics II](http://edibotopic.github.io/lecture-slides/FS2006_8.html) -->
 
 <!-- Lecture#9: [Hydrodynamics I](http://edibotopic.github.io/lecture-slides/FS2006_9.html) -->
 
