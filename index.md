@@ -40,7 +40,7 @@ Lecture#10: [Food Technology I: Science, Art, Design](http://edibotopic.github.i
 
 <!-- Lecture#10: [(Re)Introduction](http://edibotopic.github.io/lecture-slides/FS1005_12.html) -->
 
-Lecture#13: [Food Technology II: Technological Development](http://edibotopic.github.io/lecture-slides/FS1005_15.html)
+Lecture#11: [Food Technology II: Technological Development](http://edibotopic.github.io/lecture-slides/FS1005_15.html)
 
 <!-- Lecture#14: [Techno-ethics I: Introduction](http://edibotopic.github.io/lecture-slides/FS1005_16.html) -->
 
