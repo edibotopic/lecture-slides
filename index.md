@@ -40,7 +40,7 @@ Lecture#10: [Food Technology I: Science, Art, Design](http://edibotopic.github.i
 
 <!-- Lecture#10: [(Re)Introduction](http://edibotopic.github.io/lecture-slides/FS1005_12.html) -->
 
-<!-- Lecture#13: [Food Technology II: Technological Development](http://edibotopic.github.io/lecture-slides/FS1005_15.html) -->
+Lecture#13: [Food Technology II: Technological Development](http://edibotopic.github.io/lecture-slides/FS1005_15.html)
 
 <!-- Lecture#14: [Techno-ethics I: Introduction](http://edibotopic.github.io/lecture-slides/FS1005_16.html) -->
 
@@ -72,7 +72,6 @@ Lecture#6: [Hydrostatics I](http://edibotopic.github.io/lecture-slides/FS2006_6.
 Lecture#7: [Hydrostatics II](http://edibotopic.github.io/lecture-slides/FS2006_8.html)
 
 <!-- Lecture#7: [Intermission: Excel Basics](http://edibotopic.github.io/lecture-slides/FS2006_7.html) -->
-
 
 <!-- Lecture#9: [Hydrodynamics I](http://edibotopic.github.io/lecture-slides/FS2006_9.html) -->
 
