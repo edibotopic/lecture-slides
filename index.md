@@ -73,7 +73,7 @@ Lecture#7: [Hydrostatics II](http://edibotopic.github.io/lecture-slides/FS2006_8
 
 <!-- Lecture#7: [Intermission: Excel Basics](http://edibotopic.github.io/lecture-slides/FS2006_7.html) -->
 
-<!-- Lecture#9: [Hydrodynamics I](http://edibotopic.github.io/lecture-slides/FS2006_9.html) -->
+Lecture#9: [Hydrodynamics I](http://edibotopic.github.io/lecture-slides/FS2006_9.html)
 
 <!-- Lecture#10: [Hydrodynamics II](http://edibotopic.github.io/lecture-slides/FS2006_10.html) -->
 
