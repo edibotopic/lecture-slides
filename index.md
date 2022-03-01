@@ -42,7 +42,7 @@ Lecture#10: [Food Technology I: Science, Art, Design](http://edibotopic.github.i
 
 Lecture#11: [Food Technology II: Technological Development](http://edibotopic.github.io/lecture-slides/FS1005_15.html)
 
-<!-- Lecture#14: [Techno-ethics I: Introduction](http://edibotopic.github.io/lecture-slides/FS1005_16.html) -->
+Lecture#14: [Techno-ethics I: Introduction](http://edibotopic.github.io/lecture-slides/FS1005_16.html)
 
 <!-- Lecture#15: [Intermission: Pre-recording a Group Presentation](http://edibotopic.github.io/lecture-slides/FS1005_17.html) -->
 
@@ -79,7 +79,7 @@ Lecture#10: [Hydrodynamics II](http://edibotopic.github.io/lecture-slides/FS2006
 
 <!-- Lecture#11: [Intermission: Typing Math](http://edibotopic.github.io/lecture-slides/FS2006_11.html) -->
 
-<!-- Lecture#12: [Hydrodynamics III](http://edibotopic.github.io/lecture-slides/FS2006_12.html) -->
+Lecture#12: [Hydrodynamics III](http://edibotopic.github.io/lecture-slides/FS2006_12.html)
 
 <!-- Lecture#13: [Separations I](http://edibotopic.github.io/lecture-slides/fs2006_13.html) -->
 
