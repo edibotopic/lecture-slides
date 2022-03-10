@@ -83,7 +83,7 @@ Lecture#11: [Hydrodynamics III](http://edibotopic.github.io/lecture-slides/FS200
 
 Lecture#12: [Separations I](http://edibotopic.github.io/lecture-slides/fs2006_13.html)
 
-<!-- Lecture#14: [Separations II](http://edibotopic.github.io/lecture-slides/FS2006_14.html) -->
+Lecture#13: [Separations II](http://edibotopic.github.io/lecture-slides/FS2006_14.html)
 
 <!-- Lecture#15: [Separations III](http://edibotopic.github.io/lecture-slides/FS2006_15.html) -->
 
