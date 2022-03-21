@@ -48,7 +48,7 @@ Lecture#12: [Techno-ethics I: Introduction](http://edibotopic.github.io/lecture-
 
 Lecture#13: [Techno-ethics II: Consequences](http://edibotopic.github.io/lecture-slides/FS1005_18.html)
 
-<!-- Lecture#17: [Techno-ethics III: Sustainability](http://edibotopic.github.io/lecture-slides/FS1005_19.html) -->
+Lecture#14: [Techno-ethics III: Sustainability](http://edibotopic.github.io/lecture-slides/FS1005_19.html)
 
 ---
 
