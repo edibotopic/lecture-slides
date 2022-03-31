@@ -87,7 +87,7 @@ Lecture#11: [Separations II](http://edibotopic.github.io/lecture-slides/FS2006_1
 
 Lecture#12: [Separations III](http://edibotopic.github.io/lecture-slides/FS2006_15.html)
 
-<!-- Lecture#16: [Evaporation, Bulk Solids, Industry 4.0](http://edibotopic.github.io/lecture-slides/FS2006_16.html) -->
+Lecture#13: [Bulk Solids](http://edibotopic.github.io/lecture-slides/FS2006_16.html)  33iii
 
 ---
 
