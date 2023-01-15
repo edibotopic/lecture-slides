@@ -3,59 +3,11 @@ layout: page
 title: courses
 ---
 ---
-## :green_salad:Food Technology, Culture & Ethics 
-*Module **FS1005**: Slides posted at beginning of academic year ...*
-
-<!-- Pre-lecture#0: [Roadmap](http://edibotopic.github.io/lecture-slides/pre_lecture_0.html) -->
-
-<!-- Lecture#0: [Introduction](http://edibotopic.github.io/lecture-slides/FS1005_0.html) -->
-
-<!-- Pre-section: [Knowing Food](http://edibotopic.github.io/lecture-slides/pre_lecture_1to5.html) -->
-
-<!-- Lecture#1: [Ontology I](http://edibotopic.github.io/lecture-slides/FS1005_1.html) -->
-
-<!-- Lecture#2: [Ontology II](http://edibotopic.github.io/lecture-slides/FS1005_2.html) -->
-
-<!-- Lecture#3: [Epistemology I](http://edibotopic.github.io/lecture-slides/FS1005_3.html) -->
-
-<!-- Lecture#4: [Epistemology II](http://edibotopic.github.io/lecture-slides/FS1005_4.html) -->
-
-<!-- Lecture#5: [Epistemology III](http://edibotopic.github.io/lecture-slides/FS1005_5.html) -->
-
-<!-- Lecture#6: [Semiotics I](http://edibotopic.github.io/lecture-slides/FS1005_6.html) -->
-
-<!-- Lecture#7: [Semiotics II](http://edibotopic.github.io/lecture-slides/FS1005_7.html) -->
-
-<!-- Lecture#8: [Molecules and Structure I: Dispersions](http://edibotopic.github.io/lecture-slides/FS1005_8.html) -->
-
-<!-- Revision: [S1 Exam: Interactive examples](http://edibotopic.github.io/lecture-slides/FS1005_9.html) -->
-
-<!-- Lecture#9: [Molecules and Structure II: Protein Story](http://edibotopic.github.io/lecture-slides/FS1005_13.html) -->
-
-<!-- Lecture#10: [Food Technology I: Science, Art, Design](http://edibotopic.github.io/lecture-slides/FS1005_14.html) -->
-
-<!-- Lecture#8: [Rhetoric](http://edibotopic.github.io/lecture-slides/FS1005_8.html) -->
-
-<!-- Feedback on [S1 Content](http://edibotopic.github.io/lecture-slides/FS1005_10.html) -->
-
-<!-- Lecture#10: [(Re)Introduction](http://edibotopic.github.io/lecture-slides/FS1005_12.html) -->
-
-<!-- Lecture#11: [Food Technology II: Technological Development](http://edibotopic.github.io/lecture-slides/FS1005_15.html) -->
-
-<!-- Lecture#12: [Techno-ethics I: Introduction](http://edibotopic.github.io/lecture-slides/FS1005_16.html) -->
-
-<!-- Lecture#15: [Intermission: Pre-recording a Group Presentation](http://edibotopic.github.io/lecture-slides/FS1005_17.html) -->
-
-<!-- Lecture#13: [Techno-ethics II: Consequences](http://edibotopic.github.io/lecture-slides/FS1005_18.html) -->
-
-<!-- Lecture#14: [Techno-ethics III: Sustainability](http://edibotopic.github.io/lecture-slides/FS1005_19.html) -->
-
----
 
 ## :factory:Food Process Design & Optimisation 
 *Module **FS2006**: Slides will be posted in 2023 ...*
 
-<!-- Lecture#0: [Introduction](http://edibotopic.github.io/lecture-slides/FS2006_0.html) -->
+Lecture#0: [Introduction](http://edibotopic.github.io/lecture-slides/FS2006_0.html)
 
 <!-- Lecture#1: [Food Physics I](http://edibotopic.github.io/lecture-slides/FS2006_1.html) -->
 
@@ -89,11 +41,3 @@ title: courses
 
 <!-- Lecture#13: [Bulk Solids](http://edibotopic.github.io/lecture-slides/FS2006_16.html) -->
 
----
-
-## :microscope:Food Analysis & Processing 
-*Module **FS3020**: Slides will be posted again in Semester 1 (2022/2023)...*
-
-<!-- Slides: [Protein Fractionation](http://edibotopic.github.io/lecture-slides/FS3020_pro_frac.html) -->
-
----
