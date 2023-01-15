@@ -5,7 +5,10 @@ title: courses
 ---
 
 ## :factory:Food Process Design & Optimisation 
-*Module **FS2006**: Slides will be posted in 2023 ...*
+*Module **FS2006**: Slides will be posted throughout 2023 ...*
+
+This site is basically a repository for slides shown on another website.
+All of these slides will eventually be migrated to another website.
 
 Lecture#0: [Introduction](http://edibotopic.github.io/lecture-slides/FS2006_0.html)
 
