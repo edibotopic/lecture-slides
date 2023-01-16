@@ -84,7 +84,7 @@
 			<p style="float: left;">
 			<br>
 
-			<i>A set of <strong>operations</strong> 
+			<i>A set of <strong>events</strong> 
 				<br>that are <strong>ordered logically</strong>
 				<br>to fulfill a <strong>specified purpose</strong></i>
 			</p>
@@ -94,15 +94,16 @@
 		</section>
 
 		<section>
-			<h3>Processes</h3>
+			<h3>Processes as algorithms</h3>
 
 
 			<ol style="float: left; bottom: 100% ;">
 				<p>	<strong style="color: orange;">Should have:</strong></p>
 				<i>
-					<li>Input</li>
+					<li>Input</li> <!-- TODO algorithm image -->
 					<li>Output</li>
-					<li>Definiteness</li>
+					<li>Definiteness</li> <!-- ? should be able to run on a computer -->
+					<li>Finiteness</li>
 					<li>Effectiveness</li>
 				</i>
 			</ol>
@@ -135,7 +136,25 @@
 		</section>
 
 		<section>
-			<h3>Food scientists in manufacturing</h3>
+			<h3>Consequences for food processing</h3>
+
+			<blockquote><p>
+				The production of commodity goods is driven by common goals:
+				including <strong>scale</strong>, <strong>continuity</strong> and <strong>quality</strong>
+			</p>
+
+				<blockquote class="fragment fade-in"><p>
+				The industry remains, however, an
+				interesting mixture of tradition and technology (see whiskey)
+				</p>
+
+				</blockquote>
+			</blockquote>
+
+		</section>
+
+		<section>
+			<h3>Are there still masters?</h3>
 			<img class="hue "style="float: left; width: 40%; height: 40%;;" data-src="img/food_loop.svg"> <!-- TODO add image of fs1006 nexus-->
 			<br><br>
 			<p style="float: right;">Mastering food processing <br>
@@ -148,10 +167,64 @@
 			<h2>A general principle</h2>
 			<br>
 			<div class="math">
-				<p class="throb" style="color: white;">$$\color{orange}{E} = \frac{\color{violet}{UO}}{\color{aqua}{TI}}$$</p>	
+				<p class="throb" style="color: grey;">$$\color{orange}{E} = \frac{\color{violet}{UO}}{\color{aqua}{TI}}$$</p>	
 			</div>
 			<br>
-			<small st class="fragment fade-left">Like many important principles this is most clearly depicted mathematically</small>
+			<small st class="fragment fade-left">Like most important principles this is most clearly depicted mathematically</small>
+		</section>
+
+		<section data-background-image="img/bg_brain.jpg">
+			<blockquote style="background-color: rgba(61, 28, 58, 0.411);">
+				<h2>What is process intelligence?</h2>
+				<!-- TODO the sights and sounds of a factory - still from video maybe here with drawing-->
+			</blockquote>
+		</section>
+
+		<section data-markdown data-separator="\n---\n$">
+			<script type="text/template">
+					<h3>Design Considerations: Materials</h3>
+
+					|Phases	  |G 	    	 |O		 	    |S			 |W    		 |
+					|:--------|:------------:|:------------:|:----------:|:---------:|
+					|G   	  |$G_1$/$G_2$   |O/G   	    |S/G  		 |W/G  		 |
+					|O        |G/O 		     |$O_1/O_2$     |S/O  		 |W/O  	 	 |
+					|S  	  |G/S  	     |O/S    		|$S_1/S_2$   |W/S  		 |
+					|W    	  |G/W           |O/W   	    |S/W  		 |$W_1/W_2$  |
+
+					<sub style="color:violet"><sub><sub>16 Possible dispersions (at least) - a starting point 🤔 <sub><sub><sub>
+			</script>
+		</section>
+
+		<section>
+			<h3 style="color: aqua;">Design Considerations: Interactions</h3>
+			<br>
+			<div class="math">
+				<p style="color: violet;">$$(2+3)+1 = 2+(3+1)$$</p>	
+				<br>
+				<p class="fragment fade-right" style="color: orange;">$$(egg+sugar)+milk = egg+(sugar+milk) \ ???$$</p>	
+			</div>
+			<br>
+			<small class="fragment fade-left">Reality can sometimes be messier than maths</small>
+		</section>
+
+		<section>
+<h3>In Processing Order Matters</h3>
+<br>
+			<svg  width="64.248mm" height="82.395mm" version="1.1" viewBox="0 0 64.248 82.395" xmlns="http://www.w3.org/2000/svg">
+				<g class="draw" transform="translate(-71.063 -71.063)" fill="none" stroke="violet" stroke-width="1.0583">
+				 <path d="m103.19 103.19 31.75-31.75m-31.75 82.021v-50.271l-31.75-31.75"/>
+				 <path id="branch_L" d="m84.667 84.667 10.583-13.229"/>
+				</g>
+			   </svg>
+
+			   <svg  width="64.248mm" height="82.395mm" version="1.1" viewBox="0 0 64.248 82.395" xmlns="http://www.w3.org/2000/svg">
+				<g id="right_tree" class="draw" transform="translate(-71.063 -71.063)" fill="none" stroke="yellow" stroke-width="1.0583">
+				 <path stroke="orange" d="m103.19 103.19 31.75-31.75m-31.75 82.021v-50.271l-31.75-31.75"/>
+				 <path stroke="orange" id="branch_R" d="m121.71 84.667-10.583-13.229"/>
+				</g>	
+			 </svg>
+
+			<script src="/scripts/drawsvg.js"></script> 
 		</section>
 
 		<section data-background-image="img/pipe_mare.png" data-auto-animate>
@@ -171,11 +244,84 @@
 			<div data-id="box" style="margin: auto; padding: 1px; border-radius: 50%; height: 1px; width: 1px; background: black;"></div>
 		</section>
 
+
+		<section>
+			<h3>Solving inverse problems</h3>
+
+			<br>
+			<div class="math">
+				<p class="fragment fade-right" style="color: violet;">Forward: $$cause \rightarrow effect$$</p>	
+<br>
+				<p class="fragment fade-left" style="color: orange;">Inverse: $$effect \rightarrow cause$$</p>	
+			</div>
+			<br>
+
+
+		</section>
+
+		<section data-markdown data-separator="\n---\n$">
+			<script type="text/template">
+					|Forward  |Inverse    		 |
+					|:--------:|:------------:|
+					|Using recipes   	  |Inventing recipes  |
+					|Prognosis |Diagnosis|
+					|Creating faults| Fixing faults|
+					|Applying theory|Developing theory|
+					|Identifying goals| Attaining goals|
+					|Doing calculations  	  |Deriving equations  	  |
+					|Initiating/testing|Designing/optimising|
+
+					<sub class="fragment fade-in" style="color:violet"><sub><sub>Inverse problems are often more interesting and challenging <sub><sub><sub>
+			</script>
+		</section>
+
+		<section>
+			<h3>Goals of this module</h3>
+
+			<ul>
+				<li class="fragment fade-in">Provide you with general <strong>tools and ideas</strong></li>
+				<li class="fragment fade-in">Give you <strong>real examples</strong> of food processes</li>
+				<li class="fragment fade-in">Develop your "feel" for <strong>maths and physics</strong></li>
+				<li class="fragment fade-in">Prepare you better for specific <strong>industry roles</strong></li>
+			</ul>
+
+		</section>
+
+		<section>
+			<object width="400" height="500" type="application/pdf" data="tex\FS2006_syll.pdf">
+				<iframe title="Download me here or from the Canvas page" width="860" height="815" data-src="tex\FS2006_syll.pdf" allowfullscreen></iframe>
+			</object>
+			<small style="color: orange;">Your device may not show a pdf reader (you can still access it on Canvas)</small>
+		</section>	
+
+		<section>
+			<h3>Boring stuff</h3>
+			<ul>
+				<li><strong>Practicals:</strong> 7 practicals (reports worth 15%)</li>
+				<li><strong>Lectures:</strong> mix of in-person and virtual</li>
+				<li><strong>Exams:</strong> 1 "in-class" test (15%), 1 formal (70%)</li>
+				<li><strong>Notes:</strong> extra detail provided for specific topics</li>
+			</ul>
+			<br><br>
+				<small style="color: orange;">Read the syllabus for the specifics - don't "what's a syllabus?" me in three months😄</small>
+
+		</section>
+
 				<section>
 					<h3><strong>Next lecture</strong> <br> </h3>
 					<p><i>Food Physics</i></p>
 
 					<a href="mailto:shane.crowley@ucc.ie">shane.crowley@ucc.ie</p>
+					<a href="mailto:shane.crowley@ucc.ie">
+						<img alt="media not supported by your browser" title="Email me, or better POST ON PIAZZA" data-src="img/edibo_icon_wp.png" alt="edibotopic logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="logo">
+					</a>
+				</section>
+
+				<section id="last-slide">
+					<p><a href="https://www.menti.com">www.menti.com</a> | <strong>Code:</strong>1892 3143</p>
+					<a href="https://www.mentimeter.com/s/5e7f3672041fcd1192f6e05fd3cb9ef9/292b81454eb4"><img src="img/menti_fs2006_inputs.png" title="Click me to see the results 📊" alt="Image of QR code appears here" width="50%"></a>
+					<br>
+					<a href="#/0">Go back to the first slide 👈 </a>
 				</section>
 
 		</div>
