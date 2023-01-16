@@ -19,8 +19,6 @@
 	<link rel="stylesheet" href="./plugin/highlight/monokai.css">
 	<link rel="stylesheet" href="./css/print/pdf.scss" type="text/css" media="print">
 	<link rel="stylesheet" href="./las/1.3.0/css/line-awesome.min.css">
-	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous"> -->
-	<!-- <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css"> -->
 
 	<script src="./dist/reveal.js"></script>
     <script src="./plugin/markdown/markdown.js"></script>
@@ -32,34 +30,34 @@
 	<script src="https://kit.fontawesome.com/7aef6575d6.js" crossorigin="anonymous"></script>
 	<script src="./plugin/menu/menu.js"></script>
 	<script src="./plugin/menu/plugin.js"></script>
-	<!-- <script src="./plugin/zoom/zoom.js", async: false></script> -->
 
 </head>
 
 <body>
-
 	<div class="reveal">
-		<!-- Any section element inside of this container is displayed as a slide -->
 		<div class="slides">
 				<section>
-				<h3>FS2006: Food Process <br>Design & Optimisation</h3>
+				<h2>FS2006</h3>
+				<h3>Food Process <br>Design & Optimisation</h3>
 				<h4><i>Dr Shane V Crowley</i></h4>
 	
 				</section>
-			<section>
-				<h3>Processing can be the transformation of. . .</h3>
-				<br>
 
-				<ul style="float: left;">
-					<li class="fragment fade-up">Inedible to edible</li><br>
-					<li class="fragment fade-up">Distasteful to palatable</li>
-					<br>
-					<li class="fragment fade-up">Wasteful to resourceful</li>
-				</ul>
+                <section>
+                    <h3>Transformations</h3>
+                    <br>
 
-				<img title="Raw olives are effectively inedible" alt="Your browser isn't showing the image" style="float: right; width: 40%; height: 40%;" data-src="img/olives.jpg">
+                    <ul style="float: left;">
+                        <li class="fragment fade-up">Inedible 👉 edible</li>
+                        <li class="fragment fade-up">Unpleasant 👉 pleasant</li>
+                        <li class="fragment fade-up">Difficult 👉 easy</li>
+                        <li class="fragment fade-up">Perishable 👉 longlasting</li>
+                        <li class="fragment fade-up">Dangerous 👉 safe</li>
+                        <li class="fragment fade-up">Waste 👉 food</li>
+                    </ul>
 
-			</section>
+                    <img title="Raw olives are effectively inedible" alt="Your browser isn't showing the image" style="float: right; width: 40%; height: 40%;" data-src="img/olives.jpg">
+                </section>
 
 		<section>
 			<h3>Industrial</h3>
@@ -79,14 +77,14 @@
 		</section>
 
 		<section>
-			<h3>Our working definition</h3>
-
+			<h3>Working definition</h3>
 			<p style="float: left;">
 			<br>
+			<br>
 
-			<i>A set of <strong>operations</strong> 
-				<br>that are <strong>ordered logically</strong>
-				<br>to fulfill a <strong>specified purpose</strong></i>
+			<i>A set of <strong>sub-processes</strong> 
+				<br>that are <strong>ordered</strong>
+				<br>to fulfill a <strong>goal</strong></i>
 			</p>
 
 			<i class="las la-project-diagram la-10x" style="color: yellow;"></i>
@@ -96,14 +94,14 @@
 		<section>
 			<h3>Processes</h3>
 
-
 			<ol style="float: left; bottom: 100% ;">
-				<p>	<strong style="color: orange;">Should have:</strong></p>
+				<p>	<strong style="color: orange;">Usually have:</strong></p>
 				<i>
 					<li>Input</li>
 					<li>Output</li>
 					<li>Definiteness</li>
 					<li>Effectiveness</li>
+					<li>Finiteness</li>
 				</i>
 			</ol>
 
@@ -112,26 +110,24 @@
 		</section>
 
 		<section>
-			<h3>The Artisan and the Industrial</h3>
+			<h3>Art and Industry</h3>
 			<img title="The food industry is an interesting mix of old and new" data-src="img/artisan.jpg" alt="Your browser isn't showing the image"> <!-- TODO pipes and stuff -->
 
 		</section>
 
-
 		<section>
-			<h3>From Artisinal to Industrial</h3>
-<br>
+			<h3>Modernisation</h3>
+        <br>
 			<ul>
-				<li>Artisans dominated for a long period 🎨</li>
-				<li>Depended on tacit knowledge of a master 👨‍🍳</li>
-				<li>Taylor: shift from craft- to mass-production 🚙</li>
-				<li>Ford: shift to mass-consumption ⏲️</li>
+				<li>Artisans dominated for a long period</li>
+				<li>Depended on tacit knowledge of a "master"</li>
+				<li>Taylorism: shift to mass-production</li>
+				<li>Fordism: shift to mass-consumption</li>
 			</ul>
-<br><br>
+            <br><br>
 			<small style="color: violet;">Break process into sub-processes,
 				divide mastery between workers,<br> standardise the product, make
-			the process efficient</small>
-
+			    the process efficient</small>
 		</section>
 
 		<section>
@@ -148,35 +144,32 @@
 			<h2>A general principle</h2>
 			<br>
 			<div class="math">
-				<p class="throb" style="color: white;">$$\color{orange}{E} = \frac{\color{violet}{UO}}{\color{aqua}{TI}}$$</p>	
+				<p style="color: white;">$$\color{orange}{E} = \frac{\color{violet}{UO}}{\color{aqua}{TI}}$$</p>	
 			</div>
 			<br>
-			<small st class="fragment fade-left">Like many important principles this is most clearly depicted mathematically</small>
+			<small st class="fragment fade-left">Like many principles this is most simply depicted mathematically</small>
 		</section>
 
 		<section data-background-image="img/pipe_mare.png" data-auto-animate>
 			<div data-id="box" style="margin: auto; padding: 1px; border-radius: 50%; height: 1px; width: 1px; background: black;"></div>
-
 		</section>
 
 		<section data-background-image="img/pipe_mare.png" data-auto-animate>
-
 			<div data-id="box" style="margin: auto; padding: 50px; height: 130px; width: 160px; background: black; border: yellow; border-width: 2px; border-style: solid;">
 			<p style="font-size: 80px;">?</p>
 			</div>
-		
 		</section>
 
 		<section data-background-image="img/pipe_mare.png" data-auto-animate>
 			<div data-id="box" style="margin: auto; padding: 1px; border-radius: 50%; height: 1px; width: 1px; background: black;"></div>
 		</section>
 
-				<section>
-					<h3><strong>Next lecture</strong> <br> </h3>
-					<p><i>Food Physics</i></p>
+        <section>
+            <h3><strong>Next lecture</strong> <br> </h3>
+            <p><i>Food Physics</i></p>
 
-					<a href="mailto:shane.crowley@ucc.ie">shane.crowley@ucc.ie</p>
-				</section>
+            <a href="mailto:shane.crowley@ucc.ie">shane.crowley@ucc.ie</p>
+        </section>
 
 		</div>
 	</div>
